@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">    
+        <meta property="og:title" content="MENU" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="400" />
+        <meta property="og:image:height" content="300" />
+        <meta property="og:image" content="https://i.ibb.co/RCjm4by/BattBros.png" />
+	    <meta property="og:image:secure_url" content="https://i.ibb.co/RCjm4by/BattBros.png" />
+        <meta name="keywords" content="Web Development">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Pinecrest - Home</title>
+        <meta name="description" content="Online Presence Management">
+        <link rel="stylesheet" href="main.css">
+        <link rel="shortcut icon" type="image/png" href="MENU=.png">
+        <link href="https://fonts.googleapis.com/css?family=Federant|Akronim|Kaushan+Script|Fugaz+One|Righteous|Orbitron|Kanit|Quintessential" rel="stylesheet"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    
+    <body id="animated-example" class="animated fadeOut">
+        
+        <script>window.addEventListener("beforeunload", function () {
+  document.body.classList.add("animate-out");
+            });</script>
+
+ <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#9747;</a>
+          <a style= "text-decoration: underline" href="index.html">Home</a>
+          <a href="menu.html">Menu</a>
+          <a href="contact.html">Contact</a>
+        </div>
+
+        <span style="float:right;margin-top: 10px;cursor:pointer" onclick="openNav()">
+       <img class=navicon src="MenuLeft1.png">
+        </span>
+
+        <script>
+            
+            
+            
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "150px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+
+        <nav><img class= "logo" src="logo_transparent.png"><p>401 Geary St, San Francisco, CA 94102 </p>
+        </nav>
+        
+        
+        <div id="intro">   
+            
+            <div id="stage">
+                <img src="Burger.jpg">
+                <img src="ChocChipPancakes.jpg">
+                <img src="BananaSplit.jpg">
+                <img src="Rueben.jpg">
+                <img src="Waffle.jpg">
+                <img src="Club.jpg">
+            </div>
+            
+            <h1>SINCE 1969 - OPEN 24 HOURS</h1>
+
+            <script type="text/javascript">
+               window.addEventListener("DOMContentLoaded", function(e) {
+
+                var stage = document.getElementById("stage");
+                var fadeComplete = function(e) { stage.appendChild(arr[0]); };
+                var arr = stage.getElementsByTagName("img");
+                for(var i=0; i < arr.length; i++) {
+                  arr[i].addEventListener("animationend", fadeComplete, false);
+                }
+              }, false);
+            </script>
+        </div>
+        
+        <footer>
+            
+            <p><a id="sociallink" href="https://www.facebook.com/MangiaTuttiRistorante/"> <img src="FaceBook.png"></a>
+             &copy; Pinecrest Diner
+            <a id="sociallink" href="https://www.instagram.com/mangiatuttisf/"><img src="Instagram.png"></a><br><img id="menumade" src="MENU.png"> made</p>
+            
+        </footer>
+        
+    </body>

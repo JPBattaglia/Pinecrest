@@ -1,0 +1,967 @@
+html{
+    min-height:100%;
+    overflow:auto;
+}
+
+.animated {
+        background-color: #774;
+        background-position: left top;
+        margin-bottom:30px;
+        -webkit-animation-duration: 3s;animation-duration: 3s;
+        -webkit-animation-fill-mode: both;animation-fill-mode: both;
+        }
+
+        @-webkit-keyframes fadeOut {
+          100% {opacity: 1;}
+          0% {opacity: 0;}
+         }
+
+        @keyframes fadeOut {
+          100% {opacity: 1;}
+          0% {opacity: 0;}
+         }
+
+.fadeOut {
+        -webkit-animation-name: fadeOut;
+        animation-name: fadeOut;
+         }
+
+body{
+    background:url(Pinecrest.pn);
+    background-size: 15%;
+    background-attachment:scroll;
+}
+
+#reservation:hover{
+    box-shadow: 2px 8px 10px red;
+    color:orangered;
+    text-shadow:
+       1px 1px 0 white;
+    }
+
+#menumade {
+    padding-top: 15px;
+    width: 65px;
+}
+
+h1{
+    color: #785;
+    background-color: #000;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    font-family: 'righteous';
+    text-align: center;
+    font-weight: bolder;
+    text-shadow:
+       1px 1px 0 #fff;
+}
+
+h2{
+    text-decoration: underline;
+    font-size: 28px;
+    font-family: 'federant', serif;
+    font-weight: bolder;
+    color: #800;
+}
+
+h3{
+    font-size: 22px;
+    font-family: 'Quintessential', serif;
+    font-weight: 600;
+}
+
+h4{
+    font-family: serif;
+    font-weight: bolder;
+    width:300px;
+    margin: auto;
+}
+
+p{
+    color: #a00;
+    font-size: 17px;
+    width:250px;
+    margin: auto;
+    font-family: serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background: repeating-linear-gradient(to right, #030, #453, #774, #453, #030 100%);
+    background-repeat: repeat;
+    background-size: 100% 103%;
+    overflow-x: hidden;
+    transition: .8s;
+    padding-top: 150px;
+    font-family: 'Quintessential';
+    font-weight: bold;
+}
+
+.sidenav a {
+    padding: 45px 10px;
+    font-size: 28px;
+    color: white;
+    display: block;
+    transition: 1s;
+    max-width: 100%;
+    text-align: center;
+    text-shadow:
+       1px 1px 0 black,
+      -1px -1px 0 #3a4,  
+       1px -1px 0 #3a4,
+      -1px 1px 0 #3a4,
+       1px 1px 0 #3a4;
+    text-decoration: none;
+}
+
+.sidenav a:hover {
+    color: #3b4;
+    text-shadow:
+       1px 1px 0 Black,
+      -1px -1px 0 white,  
+       1px -1px 0 white,
+      -1px 1px 0 white,
+       1px 1px 0 white;
+}
+
+.sidenav .closebtn {
+    margin: 0 40px;
+    padding: 5px 15px 28px 22px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+nav{
+    height: 100px;
+    margin: 20px 120px;
+}
+
+nav p{
+    color: white;
+    font-family: 'Quintessential';
+    float:right;
+    margin-top: 30px;
+}
+
+.navicon {
+    width: 50px;
+    height: 40px;
+    margin: 0px 50px;
+}
+
+.navicon1 {
+    width: 30px;
+    height: 4px;
+    margin: 5px;
+    background: firebrick;
+}
+
+.logo{
+    width: 85px;
+}
+
+img {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+  #stage{
+    position:absolute;
+    margin:auto;
+    max-width: 1100px;
+    z-index: -1;
+  }
+
+  #stage img:nth-of-type(1) {
+    animation-name: fader;
+    animation-delay: 3s;
+    animation-duration: 2s;
+    z-index: 20;
+  }
+  #stage img:nth-of-type(2) {
+    z-index: 10;
+  }
+  #stage img:nth-of-type(n+3) {
+    display: none;
+  }
+
+  @keyframes fader {
+    from { opacity: 1.0; }
+    to   { opacity: 0.0; }
+  }
+
+#intro{
+    max-width: 1100px;
+    height: 650px;
+    margin: auto;
+}
+
+#intro img{
+    width: 1100px;
+    height: 600px;
+    margin: auto;
+    position:absolute;
+}
+
+#info{
+    text-align: center;
+    padding-bottom: 20px;
+    color: #700;
+}
+
+#mobilemenu{
+    max-width: 60%;
+    margin: 20px auto;
+}
+
+#mobilemenu img{
+    max-width:100%;
+    margin: auto;
+}
+
+/*=======================================*/
+/*=======================================*/
+
+@media (max-width: 1000px) and (min-width: 601px){
+     #rotate{
+        display: none;
+    }
+    
+    .sidenav .closebtn {
+    margin: 0 15px;
+    padding: 10px 10px 28px 22px;
+    }
+    
+    .navicon{
+        margin: 0px 20px 0px 0px;
+    }
+    
+    .logo{
+        max-width: 75px;
+    }
+    
+    
+    p{
+        color: #a00;
+        font-size: 15px;
+        width:250px;
+        margin: auto;
+        font-family: serif;
+    }
+    
+    #logo{
+        font-size: 18px;
+        color: #800;
+        font-style: italic;
+        font-weight: bolder;
+        width: 360px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    #sociallink img{
+        width: 40px;
+        margin: 0px 20px
+    }
+    
+    #stage{
+        max-height: 200px;
+    }
+    
+    #intro{
+        margin: auto;
+        height: 450px;
+        max-width: 600px;
+    }
+    
+    h1{
+        font-size: 28px;
+        margin: 10px auto;
+        max-width:100%;
+        padding: 0;
+        border: 8px double #775;
+    }
+    
+    #intro img{
+        margin: 50px auto;
+        max-width: 600px;
+        max-height: 400px;
+        border: 3px double #775;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    
+    .menus{
+        margin: 5px;
+    }
+    
+    #reservation{
+        color:#ffeecc;
+        padding: 10px 25px;
+        background: repeating-linear-gradient(to top, #500, #900, red 100%);
+        width: 100px;
+        border-radius: 30px;
+        font-family: 'federant';
+        text-decoration: none;
+        border: .5px solid #600;
+        box-shadow: 2px 4px 8px #700;
+        margin: 5px;
+
+    }
+    
+    textarea, input{
+        font-family: 'federant', serif;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bolder;
+        max-width: 500px;
+        background-color: antiquewhite;
+    }
+    
+    #message{
+        height: 200px;
+    }
+
+    select{
+        font-family: 'federant', serif;
+        color: #a00;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bolder;
+        max-width: 30%;
+        box-sizing: border-box;
+        background-color: antiquewhite;
+    }
+
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #c00;
+        opacity: .5; /* Firefox */
+    }
+
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: red;
+    }
+
+    ::-ms-input-placeholder { /* Microsoft Edge */
+        color: red;
+    }
+
+    /* Style inputs with type="text", select elements and textareas */
+    input[type=text], select, textarea {
+        margin: auto;
+        box-shadow: 2px 4px 10px #600;
+        text-align: center;
+        width: 60%; /* Full width */
+        padding: 8px; /* Some padding */  
+        border: 1.5px solid #090; /* Gray border */
+        border-radius: 20px; /* Rounded borders */
+        box-sizing: border-box; /* Make sure that padding and width stays in place */
+        margin-top: 30px; /* Add a top margin */
+        margin-bottom: 30px; /* Bottom margin */
+        resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    }
+
+    /* Style the submit button with a specific background color etc */
+    input[type=submit] {
+        color:#ffeecc;
+        padding: 10px 39px;
+        background: repeating-linear-gradient(to top, #030, #070, lightgreen 100%);
+        width: 150px;
+        border-radius: 30px;
+        font-family: 'Federant';
+        font-size: 20px;
+        text-decoration: none;
+        border: .5px solid #66cc00;
+        box-shadow: 
+            2px 8px 10px black,
+            -2px 8px 10px black;
+        -webkit-transition: background-color 1s ease-out;
+        -moz-transition: background-color 1s ease-out;
+        -o-transition: background-color 1s ease-out;
+        transition: background-color 1s ease-out;
+        margin-bottom: 50px;
+    }
+
+    /* When moving the mouse over the submit button, add a blue color */
+    input[type=submit]:hover {
+        box-shadow: 2px 8px 10px limegreen;
+        color: antiquewhite;
+        text-shadow:
+        1px 1px 0 lime,
+        -1px -1px 0 green,  
+        1px -1px 0 green,
+        -1px 1px 0 green,
+        1px 1px 0 green;
+        cursor: pointer;
+    }
+    
+    #fname{
+        margin-top: 100px;
+    }
+
+    /* Add a background color and some padding around the form */
+    .container{
+        background: url(Vines.png);
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+        max-width: 95%;
+        margin: auto;
+    }
+
+    #form {
+        padding: 20px 0px 40px;
+        text-align: center;
+        width: 100%;
+    }
+
+    footer{
+        margin-top: 50px;
+        text-align: center;
+        font-size: 20PX;
+        color: #fff; 
+    }
+    
+    footer p{
+        width: 100%;
+        font-weight: bolder;
+        color: #fff
+    }
+}
+
+/*=======================================*/
+/*=======================================*/
+
+@media (max-width: 600px){
+    
+    .logo{
+        max-width: 50px;
+        margin: 20px;
+    }
+    
+    nav{
+        margin: 10px 20px;
+        height: 70px;
+    }
+    
+    .sidenav .closebtn {
+    margin: 0px;
+    padding: 5px 5px 28px 22px;
+    }
+    
+    #mobilemenu{
+        max-width: 80%;
+        padding-top: 50px;
+    }
+    
+    .navicon {
+        width: 30px;
+        height: 25px;
+        margin: 10px;
+    }
+    
+    #rotate{
+        width: 50px;
+        float: left;
+    }
+    
+    #reservation{
+        color:#ffeecc;
+        padding: 7px 18px;
+        background: repeating-linear-gradient(to top, #500, #900, red 100%);
+        width: 100px;
+        border-radius: 30px;
+        font-family: 'federant';
+        text-decoration: none;
+        border: .5px solid #600;
+        box-shadow: 2px 4px 8px #700;
+        margin: 0px 5px;
+        font-size: 18px;
+    }
+    
+    #intro{
+        margin: 10px auto;
+        height: 230px;
+        max-width: 315px;
+    }
+    
+   h1{
+        font-size: 15px;
+        margin: 25px auto 0px;
+        max-width: 100%;
+        border-top-right-radius: 17px;
+        border-top-left-radius: 17px;
+        border: 3px double #775;
+    }
+    
+    #intro img{
+        margin: 25px auto;
+        max-width: 315px;
+        height: 180px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border: 1px double #775;
+    }
+    
+    #logo{
+        font-size: 12px;
+        color: #800;
+        font-style: italic;
+        font-weight: bolder;
+        width: 230px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    #logo img{
+        max-width: 185px;
+        margin: auto;
+    }
+    
+    #menumade {
+        padding-top: 15px;
+        width: 55px;
+    }
+
+    
+    h2{
+        font-size: 24px;
+    }
+    
+    h3{
+        font-size: 20px;
+    }
+    
+    p{
+        color:#a00;
+        font-size: 12px;
+        width: 225px;
+        margin: auto;
+        font-family: serif;
+        text-align: center;
+    }
+    
+    #sociallink img{
+        width: 25px;
+        margin: 0px 10px;
+    }
+    
+    #hours{
+        margin-top: 10px;
+    }
+    
+    #hours h2{
+        margin-bottom: 5px;
+    }
+    
+    #hours h3{
+        margin-top: 0px;
+    }
+    
+    #location img{
+        width: 30px;
+    }
+    
+    #reservations h2{
+        margin: 15px;
+    }
+    
+    #reservations h3{
+        margin: 15px;
+    }
+    
+    #location h2{
+        margin: 10px;
+    }
+    
+    #location h3{
+        margin: 0px;
+    }
+    
+    select{
+        padding: 0px;
+        font-family: 'federant', serif;
+        color:red;
+        text-align: center;
+        font-size: 18px;
+        font-weight:bolder;
+        max-width: 50%;
+        box-sizing: border-box;
+        background-color: antiquewhite;
+    }
+
+    #message{
+        height: 100px;
+    }
+    
+    #fname{
+        margin-top: 5px;
+    }
+    
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #b00;
+        opacity: .5; /* Firefox */
+        font-family: 'federant';
+        font-size: 17px;
+    }
+
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: red;
+    }
+
+    ::-ms-input-placeholder { /* Microsoft Edge */
+        color: red;
+    }
+
+    /* Style inputs with type="text", select elements and textareas */
+    input[type=text], select, textarea {
+        background-color: antiquewhite;
+        margin: auto;
+        font-family: 'federant';
+        font-size: 18px;
+        color: #b00;
+        box-shadow: 2px 4px 10px #600;
+        text-align: center;
+        width: 80%;
+        padding: 5px; /* Some padding */  
+        border: 1.5px solid #080; /* Gray border */
+        border-radius: 20px; /* Rounded borders */
+        box-sizing: border-box; /* Make sure that padding and width stays in place */
+        margin-top: 25px; /* Add a top margin */
+        margin-bottom: 10px; /* Bottom margin */
+        resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    }
+
+     /* Style the submit button with a specific background color etc */
+    input[type=submit] {
+        color:#ffeecc;
+        margin: 20px 0;
+        padding: 11px 39px;
+        background: repeating-linear-gradient(to top, #030, #070, lightgreen 100%);
+        width: 150px;
+        border-radius: 30px;
+        font-family: 'Federant';
+        font-size: 20px;
+        text-decoration: none;
+        border: .5px solid #66cc00;
+        box-shadow: 
+        2px 8px 10px black,
+        -2px 8px 10px black;
+        -webkit-transition: background-color 1s ease-out;
+        -moz-transition: background-color 1s ease-out;
+        -o-transition: background-color 1s ease-out;
+        transition: background-color 1s ease-out;
+    }
+
+    /* When moving the mouse over the submit button, add a blue color */
+    input[type=submit]:hover {
+        box-shadow: 2px 8px 10px limegreen;
+        color: antiquewhite;
+        text-shadow:
+        1px 1px 0 lime,
+        -1px -1px 0 green,  
+        1px -1px 0 green,
+        -1px 1px 0 green,
+        1px 1px 0 green;
+        cursor: pointer;  
+    }
+
+    /* Add a background color and some padding around the form */
+    .container{
+        width: 850px;
+        max-width: 98%;
+        margin: auto;
+    }
+
+    #form {
+        text-align: center;
+    }
+
+    footer{
+        text-align: center;
+        font-size: 20PX;
+        color: #fff; 
+    }
+    
+    footer p{
+        width: 100%;
+        font-weight: bolder;
+        font-size: 15px;
+        color: #fff
+    }
+}
+
+/*=======================================*/
+/*=======================================*/
+
+@media (min-width: 850px){
+     #rotate, .navicon1{
+        display: none;
+    }
+    
+    nav li{
+        margin: 0px 36px;
+    }
+    
+    #sociallink img{
+        width: 50px;
+        margin: 0px 50px;
+    }
+    
+    #intro img{
+        margin: 60px auto;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border: 5px double #775
+    }
+    
+    #logo{
+        font-size: 20px;
+        color: #800;
+        font-style: italic;
+        font-weight: bolder;
+        margin: auto;
+        text-align: center;
+    }
+    
+    #logo img{
+        max-width: 350px;
+    }
+    
+    #info{
+        display:flex;
+        max-width:1000px;
+        margin: auto;
+    }
+    
+    #hours{
+        flex: 3;
+        text-align: center;
+        max-width: 250px;
+        margin: 0 auto;
+    }
+    
+    #reservations{
+        flex: 2;
+        text-align: center;
+        max-width: 350px;
+        margin: 0px auto;
+    }
+    
+    #reservations h2{
+        margin-bottom: 30px;
+    }
+    
+    #location img{
+        width: 30px;
+    }
+    
+    #location{ 
+        text-align: center;
+        flex: 1;
+        max-width: 250px;
+        margin: 0 auto;
+    }
+    
+    #location h3{
+        margin: 5px;   
+    }
+    
+    #number{
+        margin-top: 30px;
+    }
+    
+    h1{
+        font-size: 40px;
+        border: 10px double #775;
+    }
+    
+    p{
+        font-size: 22px;
+        width:375px;
+        margin: auto;
+        font-family: serif;
+    }
+    
+    #reservation{
+        color:#ffeecc;
+        padding: 10px 20px;
+        background: repeating-linear-gradient(to top, #500, #900, red 100%);
+        width: 100px;
+        border-radius: 30px;
+        font-family: 'Federant';
+        font-size: 20px;
+        text-decoration: none;
+        border: .5px solid #800;
+        box-shadow: 2px 4px 8px #700;
+        margin: 5px;
+    }
+    
+    #mobilemenu img{
+        width: 850px;
+    }
+    
+    textarea, input{
+        font-family: 'federant', serif;
+        color:red;
+        text-align: center;
+        font-size: 18px;
+        font-weight:bolder;
+        max-width: 450px;
+        background-color: antiquewhite;
+    }
+
+    select{
+        font-family: 'federant', serif;
+        color: #b00;
+        text-align: center;
+        font-size: 18px;
+        font-weight:bolder;
+        max-width: 30%;
+        box-sizing: border-box;
+        background-color: antiquewhite;
+    }
+
+    #message{
+        height: 200px;
+    }
+    
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #b00;
+        opacity: .5; /* Firefox */
+    }
+
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: red;
+    }
+
+    ::-ms-input-placeholder { /* Microsoft Edge */
+        color: red;
+    }
+
+    /* Style inputs with type="text", select elements and textareas */
+    input[type=text], select, textarea {
+        margin: auto;
+        text-align: center;
+        box-shadow: 2px 4px 10px #600;
+        width: 90%; /* Full width */
+        padding: 10px; /* Some padding */  
+        border: 1.5px solid #090; /* Gray border */
+        border-radius: 20px; /* Rounded borders */
+        box-sizing: border-box; /* Make sure that padding and width stays in place */
+        margin-top: 50px; /* Add a top margin */
+        margin-bottom: 30px; /* Bottom margin */
+        resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    }
+
+     /* Style the submit button with a specific background color etc */
+    input[type=submit] {
+        color:#ffeecc;
+        letter-spacing: .3px;
+        margin: 40px 0 75px;
+        padding: 10px 39px;
+        background: repeating-linear-gradient(to top, #030, #070, lightgreen 100%);
+        width: 150px;
+        border-radius: 30px;
+        font-family: 'Federant';
+        font-size: 20px;
+        text-decoration: none;
+        border: .5px solid #66cc00;
+        box-shadow: 
+            2px 8px 10px black,
+            -2px 8px 10px black;
+        -webkit-transition: background-color 1s ease-out;
+        -moz-transition: background-color 1s ease-out;
+        -o-transition: background-color 1s ease-out;
+        transition: background-color 1s ease-out;
+    }
+
+    /* When moving the mouse over the submit button, add a blue color */
+    input[type=submit]:hover {
+        box-shadow: 2px 8px 10px limegreen;
+        color: antiquewhite;
+        text-shadow:
+        1px 1px 0 lime,
+        -1px -1px 0 green,  
+        1px -1px 0 green,
+        -1px 1px 0 green,
+        1px 1px 0 green;
+        cursor: pointer;
+    }
+    
+    #fname{
+        margin-top: 130px;
+    }
+
+    /* Add a background color and some padding around the form */
+    .container{
+        background: url(Vines.png);
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+        width: 950px;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    #form {
+        padding:20px 0px 40px;
+        text-align: center;
+    }
+
+    footer{
+        margin-top: 100px;
+        text-align: center;
+        font-size: 20PX;
+        color: #fff;
+    }
+    
+    footer p{
+        width: 100%;
+        font-weight: bolder;
+        color: #fff
+    }
+}
+
+/*=======================================*/
+/*=======================================*/
+
+@media (max-width: 1200px) and (min-width: 1000px){
+    
+    #stage {
+        max-width: 1000px;
+    }
+    
+    h1{
+        border: 10px double #775;
+    }
+    
+    #stage img{
+        max-width: 1000px;
+        margin: auto;
+    }
+    
+    #intro{
+        max-width: 1000px;
+        
+    }
+    
+    #intro img{
+        margin: 50px auto;
+        border: 3px double #775;
+        
+        
+    }
+}
+
+
