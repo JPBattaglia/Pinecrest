@@ -57,11 +57,11 @@ h1{
 }
 
 h2{
-    text-decoration: underline;
     font-size: 28px;
-    font-family: 'federant', serif;
+    font-family: 'Quintessential', serif;
     font-weight: bolder;
-    color: #800;
+    color: #fff;
+    text-align: center;
 }
 
 h3{
@@ -142,7 +142,7 @@ p{
 nav{
     height: 135px;
     padding: 20px 120px;
-    background: #552;
+    background: #666633;
     border-bottom: 15px double #774;
 
 }
