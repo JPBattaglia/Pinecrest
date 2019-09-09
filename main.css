@@ -140,8 +140,11 @@ p{
 }
 
 nav{
-    height: 100px;
-    margin: 20px 120px;
+    height: 135px;
+    padding: 20px 120px;
+    background: #552;
+    border-bottom: 15px double #774;
+
 }
 
 nav p{
@@ -154,7 +157,7 @@ nav p{
 .navicon {
     width: 50px;
     height: 40px;
-    margin: 0px 50px;
+    margin: 20px 50px;
 }
 
 .navicon1 {
@@ -237,6 +240,7 @@ img {
      #rotate{
         display: none;
     }
+    
     
     .sidenav .closebtn {
     margin: 0 15px;
@@ -449,8 +453,12 @@ img {
     }
     
     nav{
-        margin: 10px 50px;
-        height: 100px;
+        padding: 10px 50px;
+        height: 103px;
+    }
+    
+    .navicon{
+        margin: 20px 20px 0px 0px;
     }
     
     h1{
@@ -470,8 +478,9 @@ img {
     }
     
     nav{
-        margin: 10px 20px;
-        height: 70px;
+        padding: 10px 20px;
+        height: 95px;
+        border-bottom: 10px double #774;
     }
     
     .sidenav .closebtn {
@@ -487,7 +496,7 @@ img {
     .navicon {
         width: 30px;
         height: 25px;
-        margin: 10px 15px 0px 0px;
+        margin: 20px 15px 0px 0px;
     }
     
     #rotate{
@@ -764,10 +773,6 @@ img {
 @media (min-width: 1000px){
      #rotate, .navicon1{
         display: none;
-    }
-    
-    nav li{
-        margin: 0px 36px;
     }
     
     #sociallink img{
