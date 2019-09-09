@@ -484,8 +484,9 @@ img {
     }
     
     .sidenav .closebtn {
-    margin: 0px;
-    padding: 5px 5px 28px 22px;
+        margin: 0px;
+        font-size: 40px;
+        padding: 10px 15px 28px 22px;
     }
     
     #mobilemenu{
