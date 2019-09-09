@@ -226,7 +226,7 @@ img {
 }
 
 #mobilemenu img{
-    max-width:100%;
+    max-width: 100%;
     margin: auto;
 }
 
@@ -438,6 +438,25 @@ img {
         font-weight: bolder;
         color: #fff
     }
+}
+
+/*=======================================*/
+/*=======================================*/
+
+@media (max-width: 1000px) and (min-width: 601px){
+    .logo{
+        width: 65px;
+    }
+    
+    nav{
+        margin: 10px 50px;
+        height: 100px;
+    }
+    
+    h1{
+        
+    }
+    
 }
 
 /*=======================================*/
@@ -702,10 +721,47 @@ img {
     }
 }
 
+
 /*=======================================*/
 /*=======================================*/
 
-@media (min-width: 850px){
+@media (max-width: 1200px) and (min-width: 1000px){
+    
+    #stage {
+        max-width: 1000px;
+    }
+    
+    #navicon{
+        width: 50%;
+    }
+    
+    h1{
+        border: 10px double #775;
+        font-size: 40px;
+    }
+    
+    #stage img{
+        max-width: 1000px;
+        margin: auto;
+    }
+    
+    #intro{
+        max-width: 1000px;
+        
+    }
+    
+    #intro img{
+        margin: 50px auto;
+        border: 3px double #775;
+        
+        
+    }
+}
+
+/*=======================================*/
+/*=======================================*/
+
+@media (min-width: 1000px){
      #rotate, .navicon1{
         display: none;
     }
@@ -930,37 +986,6 @@ img {
         width: 100%;
         font-weight: bolder;
         color: #fff
-    }
-}
-
-/*=======================================*/
-/*=======================================*/
-
-@media (max-width: 1200px) and (min-width: 1000px){
-    
-    #stage {
-        max-width: 1000px;
-    }
-    
-    h1{
-        border: 10px double #775;
-    }
-    
-    #stage img{
-        max-width: 1000px;
-        margin: auto;
-    }
-    
-    #intro{
-        max-width: 1000px;
-        
-    }
-    
-    #intro img{
-        margin: 50px auto;
-        border: 3px double #775;
-        
-        
     }
 }
 
