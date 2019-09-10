@@ -92,7 +92,7 @@ p{
     z-index: 1;
     top: 0;
     right: 0;
-    background: url(skylineSLIDE.png);
+    background: url(SLIDENAV.png);
     background-repeat: repeat;
     background-size: 100% 103%;
     overflow-x: hidden;
@@ -143,7 +143,6 @@ nav{
     margin: 10px;
     margin-bottom: 20px;
     height: 135px;
-    padding: 20px 120px;
     background: #666633;
     border-bottom: 15px double #eeeedd;
 }
@@ -159,6 +158,7 @@ nav p{
     width: 50px;
     height: 40px;
     margin: 20px 50px;
+    
 }
 
 .navicon1 {
@@ -169,7 +169,8 @@ nav p{
 }
 
 .logo{
-    width: 85px;
+    width: 95px;
+    margin: 13px 40px;
 }
 
 img {
@@ -207,13 +208,13 @@ img {
 
 #intro{
     max-width: 1100px;
-    height: 700px;
+    height: 650px;
     margin: auto;
 }
 
 #intro img{
     width: 1100px;
-    height: 600px;
+    height: 550px;
     margin: auto;
     position:absolute;
 }
@@ -244,14 +245,9 @@ img {
         display: none;
     }
     
-    
     .sidenav .closebtn {
     margin: 0 15px;
     padding: 10px 10px 28px 22px;
-    }
-    
-    .navicon{
-        margin: 0px 20px 0px 0px;
     }
     
     .logo{
@@ -304,7 +300,7 @@ img {
         margin: 50px auto;
         max-width: 600px;
         max-height: 350px;
-        border: 5px double #775;
+        border: 8px double #775;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
     }
@@ -445,27 +441,21 @@ img {
         font-weight: bolder;
         color: #666633;
     }
-}
 
-/*=======================================*/
-/*=======================================*/
-
-@media (max-width: 1000px) and (min-width: 601px){
     .logo{
         width: 65px;
     }
     
     nav{
-        padding: 10px 50px;
         height: 103px;
     }
     
     .navicon{
-        margin: 20px 20px 0px 0px;
+        margin: 15px 30px 0px 0px;
     }
     
     #stage{
-        margin: 7px 0px;
+        margin: 6px 0px;
     }
     
 }
@@ -750,10 +740,6 @@ img {
         margin: 18px 0;
     }
     
-    #navicon{
-        width: 50%;
-    }
-    
     h1{
         border: 10px double #775;
         font-size: 40px;
@@ -771,7 +757,7 @@ img {
     
     #intro img{
         margin: 50px auto;
-        border: 3px double #775;
+        border: 8px double #775;
         
         
     }
@@ -794,20 +780,7 @@ img {
         margin: 60px auto;
         border-bottom-left-radius: 25px;
         border-bottom-right-radius: 25px;
-        border: 5px double #775
-    }
-    
-    #logo{
-        font-size: 20px;
-        color: #800;
-        font-style: italic;
-        font-weight: bolder;
-        margin: auto;
-        text-align: center;
-    }
-    
-    #logo img{
-        max-width: 350px;
+        border: 8px double #775
     }
     
     #info{
