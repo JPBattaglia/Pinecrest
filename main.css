@@ -140,6 +140,7 @@ p{
 }
 
 nav{
+    margin: 5px;
     height: 135px;
     padding: 20px 120px;
     background: #666633;
@@ -478,6 +479,7 @@ img {
     }
     
     nav{
+        margin: 5px;
         padding: 10px 20px;
         height: 95px;
         border-bottom: 10px double #774;
