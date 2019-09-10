@@ -4,7 +4,7 @@ html{
 }
 
 .animated {
-        background-color: #774;
+        background:#eeeedd;
         background-position: left top;
         margin-bottom:30px;
         -webkit-animation-duration: 3s;animation-duration: 3s;
@@ -60,7 +60,7 @@ h2{
     font-size: 28px;
     font-family: 'Quintessential', serif;
     font-weight: bolder;
-    color: #fff;
+    color: #666633;
     text-align: center;
 }
 
@@ -78,7 +78,7 @@ h4{
 }
 
 p{
-    color: #a00;
+    color: #666633;
     font-size: 17px;
     width:250px;
     margin: auto;
@@ -144,7 +144,7 @@ nav{
     height: 135px;
     padding: 20px 120px;
     background: #666633;
-    border-bottom: 15px double #774;
+    border-bottom: 15px double #eeeedd;
 
 }
 
@@ -441,7 +441,7 @@ img {
     footer p{
         width: 100%;
         font-weight: bolder;
-        color: #fff
+        color: #666633;
     }
 }
 
@@ -482,7 +482,7 @@ img {
         margin: 5px;
         padding: 10px 20px;
         height: 95px;
-        border-bottom: 10px double #774;
+        border-bottom: 10px double #eeeedd;
     }
     
     .sidenav .closebtn {
@@ -729,7 +729,7 @@ img {
         width: 100%;
         font-weight: bolder;
         font-size: 15px;
-        color: #fff
+        color: #666633;
     }
 }
 
@@ -993,7 +993,7 @@ img {
     footer p{
         width: 100%;
         font-weight: bolder;
-        color: #fff
+        color: #666633;
     }
 }
 
