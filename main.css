@@ -5,8 +5,8 @@ html{
 
 .animated {
         background:url(PinecrestBCKGRND.png);
-        background-size: cover;
-        background-position: center top;
+        background-size: 102% 100%;
+        background-position: left top;
         margin-bottom:30px;
         -webkit-animation-duration: 3s;animation-duration: 3s;
         -webkit-animation-fill-mode: both;animation-fill-mode: both;
@@ -26,12 +26,6 @@ html{
         -webkit-animation-name: fadeOut;
         animation-name: fadeOut;
          }
-
-body{
-    background:url(PinecrestBCKGRND.png);
-    background-size: 100%;
-    background-attachment:scroll;
-}
 
 #reservation:hover{
     box-shadow: 2px 8px 10px red;
@@ -472,6 +466,12 @@ img {
 /*=======================================*/
 
 @media (max-width: 600px){
+    
+    .animated{
+        background:url(PinecrestBCKGRND.png);
+        background-size: cover;
+        background-position: center top;
+    }
     
     .logo{
         max-width: 50px;
