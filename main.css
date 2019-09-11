@@ -469,7 +469,7 @@ img {
 @media (max-width: 600px){
     
     .animated{
-        background:url(PinecrestBCKGRND.png);
+        background:url(PinecrestBckgrnd1.png);
         background-size: cover;
         background-position: center top;
     }
