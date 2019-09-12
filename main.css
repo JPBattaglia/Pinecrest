@@ -151,11 +151,11 @@ p{
 
 .sidenav .closebtn {
     margin: 0 40px;
-    padding: 5px 15px 28px 22px;
+    padding: 40px 20px 28px 22px;
     position: absolute;
     top: 0px;
     right: 0px;
-    font-size: 50px;
+    font-size: 40px;
     text-decoration: none;
 }
 
@@ -272,7 +272,7 @@ img {
     
     .sidenav .closebtn {
     margin: 0 15px;
-    padding: 10px 10px 28px 22px;
+    padding: 30px 27px 28px 22px;
     }
     
     .logo{
@@ -527,8 +527,8 @@ img {
     
     .sidenav .closebtn {
         margin: 0px;
-        font-size: 40px;
-        padding: 10px 15px 28px 22px;
+        font-size: 32px;
+        padding: 25px 19px 28px 22px;
     }
     
     #mobilemenu{
