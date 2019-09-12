@@ -4,7 +4,7 @@ html{
 }
 
 .animated {
-        background:url(PinecrestBckgrnd1.png);
+        background:url(PINECRESTBACKROUND2.png);
         background-size: 100% 100%;
         background-position: left top;
         margin-bottom:30px;
@@ -469,7 +469,7 @@ img {
 @media (max-width: 600px){
     
     .animated{
-        background:url(PinecrestBckgrnd1.png);
+        background:url(PinecrestBCKGRND.png);
         background-size: cover;
         background-position: center top;
     }
