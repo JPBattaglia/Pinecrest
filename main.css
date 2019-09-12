@@ -82,7 +82,7 @@ h4{
     font-size: 18px;
     color:#ffeecc;
     padding: 10px;
-    background: repeating-linear-gradient(to top, #050, #090, limegreen 100%);  
+    background: repeating-linear-gradient(to top, #030, #070, lightgreen 100%);  
     width: 180px;
     border-radius: 30px;
     font-family: 'federant';     
@@ -754,9 +754,9 @@ img {
     input[type=submit] {
         color:#ffeecc;
         margin: 20px 0;
-        padding: 11px 39px;
+        padding: 5px;
         background: repeating-linear-gradient(to top, #030, #070, lightgreen 100%);
-        width: 150px;
+        width: 120px;
         border-radius: 30px;
         font-family: 'Federant';
         font-size: 20px;
