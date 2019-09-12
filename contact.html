@@ -21,7 +21,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     
-    <body id="animated-example" class="animated fadeOut" style="background-size:100%">
+    <body id="animated-example" class="animated fadeOut">
         
         <script>window.addEventListener("beforeunload", function () {
   document.body.classList.add("animate-out");
@@ -30,12 +30,12 @@
  <div id="mySidenav" class="sidenav">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#9747;</a>
           <a href="index.html">Home</a>
-          <a style= "text-decoration: underline" href="menu.html">Menu</a>
-          <a href="contact.html">Contact</a>
+          <a href="menu.html">Menu</a>
+          <a style= "text-decoration: underline" href="contact.html">Contact</a>
         </div>
 
         <span style="float:right;margin-top: 10px;cursor:pointer" onclick="openNav()">
-       <img class=navicon src="BURGERLOGO1.png">
+       <img class=navicon src="BURGERLOGOLEROYDROPSHDW1.png">
         </span>
 
         <script>
@@ -55,20 +55,35 @@
         </nav>
         
         
-        
-        <div id="mobilemenu">
+        <section id="form">
             
-            <h2>Menu</h2>
-        
-            <img src="Apps.jpg"><br><br><br>
-            <img src="Sandwiches.jpg"><br><br><br>
-            <img src="Sandwiches2.jpg"><br><br><br>
-            <img src="Dinner.jpg"><br><br><br>
-            <img src="Breakfast.jpg"><br><br><br>
-            <img src="Omelettes.jpg"><br><br><br>
-            <img src="Pancakes.jpg"><br><br><br>
+            <h2>Contact Us</h2>
             
-        </div>
+             <div class="container">
+                 
+                 <form action="//formspree.io/pinecrestdiner@gmail.com" method="POST">
+ 
+                 <input type="text" id="fname" name="fname" placeholder="First Name"><br>
+ 
+                 <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
+                     
+                 <input type="text" id="email_address" name="email_address" placeholder="Email"><br>
+ 
+                 <select id="service" name="service">
+                 <option value="General">General</option>
+                 <option value="Logo">Large Party</option>
+                 <option value="Icon">Catering</option>
+                 <option value="Flyer">Newsletter</option>
+                 <option value="Newsletter">Billing</option>
+                 <option value="Other">Other</option>
+                 </select><br>
+ 
+                 <textarea id="message" name="message" placeholder="Write Something..."></textarea><br>
+ 
+                 <input type="submit" value="Submit">
+                </form><br><br><br>
+             </div>
+        </section>
         
         <footer>
             
