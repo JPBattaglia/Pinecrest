@@ -541,7 +541,7 @@ img {
     
     #mobilemenu{
         max-width: 80%;
-        padding-top: 50px;
+        padding-top: 30px;
     }
     
     .navicon {
@@ -637,9 +637,9 @@ img {
     }
 
     
-    h2{
-        font-size: 25px;
-        margin: 10px;
+    #mobilemenu h2{
+        font-size: 28px;
+        margin: 0 auto 10px;
     }
     
     h3{
