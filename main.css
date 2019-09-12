@@ -55,8 +55,10 @@ h2{
     font-size: 28px;
     font-family: 'Quintessential', serif;
     font-weight: bolder;
-    color: #040;
+    color: #253;
     text-align: center;
+     text-shadow:
+       1px 2px 0 #992;
 }
 
 h3{
@@ -82,7 +84,7 @@ p{
 
 #map{
     width: 616px;
-    height: 467px;
+    height: 318px;
     margin: 50px auto;
     border: 8px double #666633;
     border-radius: 10px;
@@ -143,7 +145,7 @@ p{
 }
 
 nav{
-    margin: 19px 11px 0px 15px;
+    margin: 19px;
     margin-bottom: 20px;
     height: 135px;
     background: #807e31;
@@ -469,7 +471,7 @@ img {
 @media (max-width: 600px){
     
     .animated{
-        background:url(PinecrestBCKGRND.png);
+        background:url(PINECRESTBACKROUND2.png);
         background-size: cover;
         background-position: center top;
     }
@@ -524,15 +526,16 @@ img {
     
     #map{
         width: 308px;
-        height: 209px;
+        height: 109px;
         margin: 50px auto;
         border: 4px double #666633;
-        border-radius: 5px;
+        border-radius: 25px;
     }
     
     iframe{
         width: 300px;
-        height: 200px;
+        height: 100px;
+        border-radius: 25px;
     }
     
     #stage{
