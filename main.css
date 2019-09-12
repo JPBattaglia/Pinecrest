@@ -83,7 +83,8 @@ h4{
     background: repeating-linear-gradient(to top, #050, #090, limegreen 100%);  
     width: 180px;
     border-radius: 30px;
-    font-family: 'federant';     text-decoration: none;
+    font-family: 'federant';     
+    text-decoration: none;
     border: .5px solid #060;
     box-shadow: 2px 4px 8px #070;
 }
