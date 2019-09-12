@@ -76,7 +76,7 @@ h3{
 h4{
     position: absolute; 
     top: 30px;
-    left: 45%;
+    left: 43%;
     font-weight: bolder;
     margin: 20px auto;
     font-size: 18px;
@@ -87,8 +87,9 @@ h4{
     border-radius: 30px;
     font-family: 'federant';     
     text-decoration: none;
-    border: .5px solid #060;
-    box-shadow: 2px 4px 8px #070;
+    border: .5px solid #0a0;
+    box-shadow: 2px 4px 8px #020,
+                -2px 4px 8px #020;
 }
 
 p{
@@ -264,6 +265,10 @@ img {
     border-radius: 4px;
 }
 
+#form h2{
+    font-size: 50px;
+}
+
 /*=======================================*/
 /*=======================================*/
 
@@ -329,7 +334,7 @@ img {
         width: 120px;
         position: absolute; 
         top: 20px;
-        left: 45%;
+        left: 43%;
     }
     
     #intro img{
@@ -365,7 +370,7 @@ img {
         font-size: 18px;
         font-weight: bolder;
         max-width: 500px;
-        background-color: antiquewhite;
+        background-color: #f5f5f0;
     }
     
     #message{
@@ -398,13 +403,14 @@ img {
 
     /* Style inputs with type="text", select elements and textareas */
     input[type=text], select, textarea {
+        background-color: #f5f5f0;
         margin: auto;
-        box-shadow: 2px 4px 10px #600;
+        box-shadow: 2px 4px 10px #111109;
         text-align: center;
         width: 60%; /* Full width */
         padding: 8px; /* Some padding */  
-        border: 1.5px solid #090; /* Gray border */
-        border-radius: 20px; /* Rounded borders */
+        border: 3px solid #999966; /* Gray border */
+        border-radius: 25px; /* Rounded borders */
         box-sizing: border-box; /* Make sure that padding and width stays in place */
         margin-top: 30px; /* Add a top margin */
         margin-bottom: 30px; /* Bottom margin */
@@ -686,6 +692,10 @@ img {
         margin: 0px;
     }
     
+    #form h2{
+    font-size: 30px;
+    }
+    
     select{
         padding: 0px;
         font-family: 'federant', serif;
@@ -723,16 +733,16 @@ img {
 
     /* Style inputs with type="text", select elements and textareas */
     input[type=text], select, textarea {
-        background-color: antiquewhite;
+        background-color: #f5f5f0;
         margin: auto;
         font-family: 'federant';
         font-size: 18px;
         color: #b00;
-        box-shadow: 2px 4px 10px #600;
+        box-shadow: 2px 4px 10px #111109;
         text-align: center;
         width: 80%;
         padding: 5px; /* Some padding */  
-        border: 1.5px solid #080; /* Gray border */
+        border: 1.5px solid #999966; /* Gray border */
         border-radius: 20px; /* Rounded borders */
         box-sizing: border-box; /* Make sure that padding and width stays in place */
         margin-top: 25px; /* Add a top margin */
@@ -935,7 +945,7 @@ img {
         font-size: 18px;
         font-weight:bolder;
         max-width: 450px;
-        background-color: antiquewhite;
+        background-color: #f5f5f0;
     }
 
     select{
@@ -968,13 +978,14 @@ img {
 
     /* Style inputs with type="text", select elements and textareas */
     input[type=text], select, textarea {
+        background-color: #f5f5f0;
         margin: auto;
         text-align: center;
-        box-shadow: 2px 4px 10px #600;
+        box-shadow: 2px 4px 10px #111109;
         width: 90%; /* Full width */
-        padding: 10px; /* Some padding */  
-        border: 1.5px solid #090; /* Gray border */
-        border-radius: 20px; /* Rounded borders */
+        padding: 8px; /* Some padding */  
+        border: 1.5px solid #999966; /* Gray border */
+        border-radius: 25px; /* Rounded borders */
         box-sizing: border-box; /* Make sure that padding and width stays in place */
         margin-top: 50px; /* Add a top margin */
         margin-bottom: 30px; /* Bottom margin */
@@ -1048,3 +1059,5 @@ img {
         color: #fff;
     }
 }
+
+
