@@ -61,7 +61,6 @@ h2{
     text-align: center;
      text-shadow:
        1px 2px 0 #992;
-    margin: 40px;
 }
 
 h3{
@@ -301,7 +300,7 @@ img {
     }
     
     #sociallink img{
-        width: 30px;
+        width: 40px;
         margin: 0px 20px
     }
     
@@ -583,7 +582,7 @@ img {
     
     #intro{
         margin: 10px auto;
-        height: 200px;
+        height: 230px;
         max-width: 315px;
     }
     
@@ -596,9 +595,8 @@ img {
         border: 3px double #775;
     }
     
-    
     #intro img{
-        margin: 25px auto 0;
+        margin: 25px auto;
         max-width: 315px;
         height: 180px;
         border-bottom-left-radius: 15px;
@@ -625,20 +623,14 @@ img {
         padding-top: 15px;
         width: 55px;
     }
-    
-    #map{
-        margin: 10px auto 20px;
-    }
 
     
     h2{
-        font-size: 22px;
-        margin: 0;
+        font-size: 24px;
     }
     
     h3{
         font-size: 20px;
-        margin: 0;
     }
     
     p{
@@ -843,7 +835,7 @@ img {
     }
     
     #sociallink img{
-        width: 40px;
+        width: 50px;
         margin: 0px 50px;
     }
     
@@ -1049,5 +1041,3 @@ img {
         color: #fff;
     }
 }
-
-
