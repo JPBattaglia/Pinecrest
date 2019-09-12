@@ -265,7 +265,7 @@ img {
     border-radius: 4px;
 }
 
-#form h2{
+#form h2, #mobilemenu h2{
     font-size: 50px;
 }
 
@@ -639,7 +639,7 @@ img {
     
     h2{
         font-size: 25px;
-        margin:20px;
+        margin: 10px;
     }
     
     h3{
