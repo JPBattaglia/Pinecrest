@@ -261,7 +261,7 @@ img {
 }
 
 #mobilemenu{
-    max-width: 60%;
+    max-width: 75%;
     margin: 20px auto;
 }
 
@@ -279,7 +279,7 @@ img {
 /*=======================================*/
 /*=======================================*/
 
-@media (max-width: 1000px) and (min-width: 601px){
+@media (max-width: 1000px) and (min-width: 701px){
      #rotate{
         display: none;
     }
@@ -511,7 +511,7 @@ img {
 /*=======================================*/
 /*=======================================*/
 
-@media (max-width: 600px){
+@media (max-width: 700px){
     
     .animated{
         background:url(PINECRESTBACKROUND2.png);
@@ -547,7 +547,7 @@ img {
     }
     
     #mobilemenu{
-        max-width: 80%;
+        max-width: 90%;
         padding-top: 35px;
     }
     
@@ -607,11 +607,6 @@ img {
         border-top-right-radius: 17px;
         border-top-left-radius: 17px;
         border: 3px double #775;
-    }
-    
-    h2{
-        font-size: 24px;
-        margin-bottom: 10px;
     }
     
     
@@ -946,9 +941,11 @@ img {
         box-shadow: 2px 4px 8px #700;
     }
     
-    #mobilemenu img{
-        width: 850px;
+    #mobilemenu{
+        max-width: 75%;
+        margin: 20px auto;
     }
+    
     
     textarea, input{
         font-family: 'federant', serif;
