@@ -543,7 +543,7 @@ img {
     .sidenav .closebtn {
         margin: 0px;
         font-size: 32px;
-        padding: 25px 19px 28px 22px;
+        padding: 28px 30px 28px 22px;
     }
     
     #mobilemenu{
@@ -552,9 +552,9 @@ img {
     }
     
     .navicon {
-        width: 30px;
-        height: 25px;
-        margin: 20px 15px 0px 0px;
+        width: 35px;
+        height: 30px;
+        margin: 20px 25px 0px 0px;
     }
     
     #rotate{
@@ -577,17 +577,17 @@ img {
     }
     
     #map{
-        width: 308px;
-        height: 109px;
+        width: 286px;
+        height: 108px;
         margin: 50px auto;
         border: 4px double #666633;
-        border-radius: 25px;
+        border-radius: 12px;
     }
     
     iframe{
-        width: 300px;
+        width: 278px;
         height: 100px;
-        border-radius: 25px;
+        border-radius: 8px;
     }
     
     #stage{
@@ -607,6 +607,11 @@ img {
         border-top-right-radius: 17px;
         border-top-left-radius: 17px;
         border: 3px double #775;
+    }
+    
+    h2{
+        font-size: 24px;
+        margin-bottom: 10px;
     }
     
     
@@ -640,7 +645,7 @@ img {
     }
     
     #map{
-        margin: 10px auto 20px;
+        margin: 30px auto 40px;
     }
 
     
