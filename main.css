@@ -700,7 +700,8 @@ img {
     }
     
     #form h2{
-    font-size: 30px;
+        font-size: 30px;
+        margin-top: 50px
     }
     
     select{
@@ -800,6 +801,7 @@ img {
 
     #form {
         text-align: center;
+        margin-bottom: 20px;
     }
 
     footer{
