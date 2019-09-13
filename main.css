@@ -506,6 +506,10 @@ img {
         margin: 6px 0px;
     }
     
+    #mobilemenu{
+        max-width: 90%;
+    }
+    
 }
 
 /*=======================================*/
@@ -847,8 +851,6 @@ img {
     #intro img{
         margin: 50px auto;
         border: 8px double #775;
-        
-        
     }
 }
 
