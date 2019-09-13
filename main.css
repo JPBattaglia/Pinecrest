@@ -54,7 +54,7 @@ h1{
 }
 
 h2{
-    font-size: 28px;
+    font-size: 35px;
     font-family: 'Quintessential', serif;
     font-weight: bolder;
     color: #253;
@@ -647,11 +647,15 @@ img {
         margin: 30px auto 40px;
     }
 
+    h2{
+        font-size: 22px;
+    }
     
     #mobilemenu h2{
         font-size: 28px;
         margin: 5px auto 15px;
     }
+    
     
     h3{
         font-size: 20px;
