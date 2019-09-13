@@ -61,7 +61,7 @@ h2{
     text-align: center;
      text-shadow:
        1px 2px 0 #992;
-    margin: 40px;
+    margin: 40px 0;
 }
 
 h3{
@@ -271,6 +271,10 @@ img {
     border: 5px double #666633;
     border-radius: 4px;
 }
+#number {
+    width: 200px;
+    margin: auto;
+}  
 
 #form h2, #mobilemenu h2{
     font-size: 50px;
@@ -566,6 +570,11 @@ img {
         float: left;
     }
     
+    #number {
+        width: 150px;
+        margin: auto;
+}  
+    
     #reservation{
         color:#ffeecc;
         padding: 7px 18px;
@@ -640,7 +649,7 @@ img {
     
     #menumade {
         padding: 10px 0;
-        width: 55px;
+        width: 65px;
     }
     
     #map{
