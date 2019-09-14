@@ -206,6 +206,14 @@ nav p{
 .logo{
     width: 95px;
     margin: 13px 40px;
+    -webkit-transition: width 2s, height 2s, 
+    -webkit-transform 1.5s; /* Safari */
+    transition: width 2s, height 2s, transform 1.5s;
+}
+
+.logo:hover{
+    -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg);
 }
 
 img {
