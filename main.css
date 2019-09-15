@@ -95,8 +95,8 @@ h4{
     font-family: 'federant';     
     text-decoration: none;
     border: .5px solid #bbbb77;
-    box-shadow: 2px 4px 8px #020,
-                -2px 4px 8px #020;
+    box-shadow: 2px 4px 8px #000,
+                -2px 4px 8px #000;
 }
 
 p{
