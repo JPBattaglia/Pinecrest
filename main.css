@@ -29,8 +29,8 @@ html{
 
 
 h4:hover{
-    box-shadow: 2px 8px 10px lime;
-    color:lime;
+    box-shadow: 2px 8px 10px #b3b300;
+    color:#b3b300;
     text-shadow:
        1px 1px 0 white;
     text-decoration: none;
@@ -87,14 +87,14 @@ h4{
     font-weight: bolder;
     margin: 20px auto;
     font-size: 18px;
-    color:#ffeecc;
+    color: #fff;
     padding: 10px;
-    background: repeating-linear-gradient(to top, #030, #070, lightgreen 100%);  
+    background: repeating-linear-gradient(to top, #33331a, #808000, #cccc00 100%);  
     width: 180px;
     border-radius: 30px;
     font-family: 'federant';     
     text-decoration: none;
-    border: .5px solid #0a0;
+    border: .5px solid #bbbb77;
     box-shadow: 2px 4px 8px #020,
                 -2px 4px 8px #020;
 }
