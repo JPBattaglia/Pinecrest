@@ -170,12 +170,12 @@ p{
 }
 
 nav{
-    margin: 20px auto;
+    margin: 22px auto;
     margin-bottom: 20px;
-    width: 97%;
+    width: 97.2%;
     height: 135px;
     background: #807e31;
-    border-bottom: 15px double #eeeedd;
+    border-bottom: 20px double #eeeedd;
     text-align: center;
 }
 
