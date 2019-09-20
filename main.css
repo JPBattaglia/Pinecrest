@@ -255,14 +255,14 @@ img {
   }
 
 #intro{
-    max-width: 1100px;
-    height: 650px;
+    max-width: 1000px;
+    height: 600px;
     margin: auto;
 }
 
 #intro img{
-    width: 1100px;
-    height: 550px;
+    width: 1000px;
+    height: 530px;
     margin: auto;
     position:absolute;
 }
@@ -884,18 +884,21 @@ img {
     }
     
     #stage img{
-        max-width: 1000px;
+        max-width: 900px;
+        height: 600px;
         margin: auto;
     }
     
     #intro{
-        max-width: 1000px;
+        max-width: 900px;
+        height: 600px;
         
     }
     
     #intro img{
         margin: 50px auto;
         border: 8px double #775;
+        height: 500px;
     }
 }
 
