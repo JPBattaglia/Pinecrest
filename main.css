@@ -516,6 +516,7 @@ img {
     }
     
     nav{
+        margin-top: 17px;
         height: 103px;
     }
     
@@ -550,7 +551,7 @@ img {
     }
     
     nav{
-        margin: 15px auto;
+        margin: 11px auto;
         padding: 10px 12px;
         height: 95px;
         border-bottom: 10px double #eeeedd;
