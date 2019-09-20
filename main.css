@@ -255,13 +255,13 @@ img {
   }
 
 #intro{
-    max-width: 1000px;
+    max-width: 1050px;
     height: 600px;
     margin: auto;
 }
 
 #intro img{
-    width: 1000px;
+    width: 1050px;
     height: 530px;
     margin: auto;
     position:absolute;
