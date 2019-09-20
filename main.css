@@ -517,7 +517,9 @@ img {
     
     nav{
         margin-top: 17px;
+        width: 97%;
         height: 103px;
+        border-bottom: 15px double #eeeedd;
     }
     
     .navicon{
