@@ -209,8 +209,8 @@ nav p{
 }
 
 .logo{
-    width: 95px;
-    margin: 13px 40px;
+    width: 90px;
+    margin: 12px 0 12px 25px;
     -webkit-transition: width 2s, height 2s, 
     -webkit-transform 1.5s; /* Safari */
     transition: width 2s, height 2s, transform 1.5s;
@@ -307,6 +307,7 @@ img {
     }
     
     .logo{
+        margin: 12px 0 0 12px;
         max-width: 75px;
     }
     
@@ -524,6 +525,8 @@ img {
     
     .navicon{
         margin: 15px 30px 0px 0px;
+        width: 48px;
+        height: 36px;
     }
     
     #stage{
@@ -587,8 +590,8 @@ img {
     
     .navicon {
         width: 35px;
-        height: 30px;
-        margin: 20px 25px 0px 0px;
+        height: 28px;
+        margin: 20px 20px 0px 0px;
     }
     
     #rotate{
