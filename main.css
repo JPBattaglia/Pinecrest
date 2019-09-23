@@ -67,9 +67,10 @@ h2{
     font-size: 35px;
     font-family: 'Quintessential', serif;
     font-weight: bolder;
-    color: #253;
+    color: #050;
     text-align: center;
-     text-shadow:
+    text-shadow:
+       -1px -1px 0 #040,  
        2px 1px 0 #fff;
     margin: 40px 0;
 }
@@ -77,12 +78,13 @@ h2{
 h3{
     font-size: 28px;
     font-family: 'Quintessential', serif;
-    font-weight: 600;
+    font-weight: bolder;
     text-align: center;
     margin: 20px 0;
     color: #253;
     text-shadow:
-       2px 1px 0 white;
+       -1px -1px 0 #050,  
+       2px 1px 0 #fff;
     
 }
 
