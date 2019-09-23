@@ -30,8 +30,12 @@ html{
 
 h4:hover{
     box-shadow: 2px 8px 10px #b3b300;
-    color:#fff;
+    color: #fff;
     text-shadow:
+       1px 1px 0 #000,
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px 1px 0 #000,
        1px 1px 0 #000;
     text-decoration: none;
     }
