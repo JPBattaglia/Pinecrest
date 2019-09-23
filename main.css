@@ -30,9 +30,9 @@ html{
 
 h4:hover{
     box-shadow: 2px 8px 10px #b3b300;
-    color:#b3b300;
+    color:#fff;
     text-shadow:
-       1px 1px 0 white;
+       1px 1px 0 #000;
     text-decoration: none;
     }
 
@@ -113,6 +113,21 @@ p{
     margin: 50px auto;
     border: 8px double #666633;
     border-radius: 10px;
+}
+
+#about{
+    max-width: 75%;
+    margin:auto;
+}
+
+#about h2{
+    color: ghostwhite;
+    text-shadow:
+       1px 1px 0 #253,
+      -1px -1px 0 #253,  
+       1px -1px 0 #253,
+      -1px 1px 0 #253,
+       1px 1px 0 #253;
 }
 
 .sidenav {
