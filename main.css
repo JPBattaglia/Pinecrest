@@ -986,9 +986,9 @@ img {
         font-family: federant;
         font-size: 18px;
         text-align: center;
-        width: 65%;
+        width: 85%;
         position: relative;
-        margin: 10px auto;
+        margin: 15px auto;
         padding: 20px;
         border-radius: 15px;
         background: -moz-radial-gradient(black, #040);
@@ -997,6 +997,10 @@ img {
         max-height: calc(100vh - 2rem);
         overflow-y: auto;
         }
+    
+    .close{
+        right: 18px;
+    }
 }
 
 
