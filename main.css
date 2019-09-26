@@ -75,14 +75,14 @@ html{
         text-align: center;
         width: 65%;
         position: relative;
-        margin: 100px auto;
+        margin: 50px auto;
         padding: 50px;
         border-radius: 15px;
         background: -moz-radial-gradient(040, #fff);
         background: -webkit-radial-gradient( #807e31, #020);
         border: #807e31 double 5px;
         max-width:100%;
-        max-height: calc(100vh - 12rem);
+        max-height: calc(100vh - 6rem);
         overflow-y: auto;
         }
 
@@ -652,7 +652,7 @@ img {
     }
     
     .modalDialog > div{
-        width: 80%
+        width: 80%;
     }
     
 }
