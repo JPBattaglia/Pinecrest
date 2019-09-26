@@ -1000,7 +1000,7 @@ img {
         background: -webkit-radial-gradient( #807e31, #030);
         border: #807e31 double 3px;
         max-width: 100%;
-        max-height: calc(100vh - 3rem);
+        max-height: calc(100vh - 6rem);
         overflow-y: auto;
         }
     
