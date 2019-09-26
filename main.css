@@ -986,15 +986,15 @@ img {
         font-family: federant;
         font-size: 18px;
         text-align: center;
-        width: 95%;
+        width: 90%;
         position: relative;
         margin: 15px auto;
-        padding: 20px;
+        padding: 30px 20px;
         border-radius: 15px;
         background: -moz-radial-gradient(black, #040);
         background: -webkit-radial-gradient( #020, #066);
         max-width:100%;
-        max-height: calc(100vh - 2rem);
+        max-height: calc(100vh - 3rem);
         overflow-y: auto;
         }
     
