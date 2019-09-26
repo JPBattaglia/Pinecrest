@@ -77,9 +77,10 @@ html{
         position: relative;
         margin: 100px auto;
         padding: 50px;
-        border-radius: 10px;
+        border-radius: 15px;
         background: -moz-radial-gradient(040, #fff);
-        background: -webkit-radial-gradient( #020, #066);
+        background: -webkit-radial-gradient( #807e31, #020);
+        border: #807e31 double 5px;
         max-width:100%;
         max-height: calc(100vh - 12rem);
         overflow-y: auto;
@@ -650,6 +651,10 @@ img {
         max-width: 90%;
     }
     
+    .modalDialog > div{
+        width: 80%
+    }
+    
 }
 
 /*=======================================*/
@@ -991,9 +996,10 @@ img {
         margin: 15px auto;
         padding: 30px 20px;
         border-radius: 15px;
-        background: -moz-radial-gradient(black, #040);
-        background: -webkit-radial-gradient( #020, #066);
-        max-width:100%;
+        background: -moz-radial-gradient(black, #807e31);
+        background: -webkit-radial-gradient( #807e31, #030);
+        border: #807e31 double 3px;
+        max-width: 100%;
         max-height: calc(100vh - 3rem);
         overflow-y: auto;
         }
