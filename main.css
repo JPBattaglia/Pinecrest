@@ -32,7 +32,7 @@ html{
 	color: white;
 	line-height: 29px;
 	position: fixed;
-	right: 230px;
+	right: 295px;
 	text-align: center;
 	top: 40px;
 	width: 30px;
@@ -73,7 +73,7 @@ html{
         line-height: 2;
         font-size: 22px;
         text-align: center;
-        width: 65%;
+        width: 55%;
         position: relative;
         margin: 50px auto;
         padding: 50px;
@@ -1050,7 +1050,7 @@ img {
     }
     
     .close{
-        right: 170px;
+        right: 240px;
     }
 }
 
