@@ -997,7 +997,7 @@ img {
         padding: 30px 20px;
         border-radius: 15px;
         background: -moz-radial-gradient(black, #807e31);
-        background: -webkit-radial-gradient( #807e31, #030);
+        background: -webkit-radial-gradient( #807e31, #020);
         border: #807e31 double 3px;
         max-width: 100%;
         max-height: calc(100vh - 6rem);
