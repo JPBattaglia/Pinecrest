@@ -655,6 +655,11 @@ img {
         width: 80%;
     }
     
+    .close{
+        right: 70px;
+        top: 40px;
+    }
+    
 }
 
 /*=======================================*/
@@ -1042,6 +1047,10 @@ img {
         margin: 50px auto;
         border: 8px double #775;
         height: 500px;
+    }
+    
+    .close{
+        right: 170px;
     }
 }
 
