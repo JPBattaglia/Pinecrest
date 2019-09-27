@@ -84,6 +84,11 @@ html{
         max-width:100%;
         max-height: calc(100vh - 6rem);
         overflow-y: auto;
+        text-shadow:
+          -2px -1px 0 black,  
+           2px -1px 0 black,
+          -2px 1px 0 black,
+           2px 1px 0 black;
         }
 
 
