@@ -32,9 +32,9 @@ html{
 	color: white;
 	line-height: 29px;
 	position: fixed;
-	right: 50px;
+	right: 230px;
 	text-align: center;
-	top: 10px;
+	top: 40px;
 	width: 30px;
 	text-decoration: none;
 	font-weight: bold;
@@ -78,8 +78,8 @@ html{
         margin: 50px auto;
         padding: 50px;
         border-radius: 15px;
-        background: -moz-radial-gradient(040, #fff);
-        background: -webkit-radial-gradient( #807e31, #020);
+        background:url(SkylineSLIDE.png);
+        background-size: 100% 120%;
         border: #807e31 double 5px;
         max-width:100%;
         max-height: calc(100vh - 6rem);
@@ -996,8 +996,8 @@ img {
         margin: 15px auto;
         padding: 30px 20px;
         border-radius: 15px;
-        background: -moz-radial-gradient(black, #807e31);
-        background: -webkit-radial-gradient( #807e31, #020);
+        background: url(SkylineSLIDE.png);
+        background-size: 100% 130%;
         border: #807e31 double 3px;
         max-width: 100%;
         max-height: calc(100vh - 6rem);
