@@ -3,6 +3,12 @@ html{
     overflow:auto;
 }
 
+AOS.init({
+  useClassNames: true,
+  initClassName: false,
+  animatedClassName: 'animated',
+});
+
 .modalDialog {
     margin: auto;
 	position:fixed;
