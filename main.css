@@ -332,6 +332,7 @@ nav p{
     -webkit-transition: width 2s, height 2s, 
     -webkit-transform 1.5s; /* Safari */
     transition: width 2s, height 2s, transform 1.5s;
+    
 }
 
 .logo:hover{
@@ -468,7 +469,7 @@ img {
     }
     
     h1{
-        font-size: 28px;
+        font-size: 25px;
         margin: 10px auto;
         max-width:100%;
         padding: 0;
@@ -485,7 +486,7 @@ img {
     }
     
     #intro img{
-        margin: 50px auto;
+        margin: 46px auto;
         max-width: 600px;
         max-height: 350px;
         border: 8px double #775;
@@ -771,7 +772,7 @@ img {
     }
     
    h1{
-        font-size: 15px;
+        font-size: 12px;
         margin: 25px auto 0px;
         max-width: 100%;
         border-top-right-radius: 17px;
@@ -781,7 +782,7 @@ img {
     
     
     #intro img{
-        margin: 25px auto 0;
+        margin: 21px auto 0;
         max-width: 315px;
         height: 180px;
         border-bottom-left-radius: 15px;
@@ -1073,7 +1074,7 @@ img {
     }
     
     #intro img{
-        margin: 60px auto;
+        margin: 56px auto;
         border-bottom-left-radius: 25px;
         border-bottom-right-radius: 25px;
         border: 8px double #775
@@ -1126,7 +1127,7 @@ img {
     }
     
     h1{
-        font-size: 40px;
+        font-size: 38px;
         border: 10px double #775;
     }
     
