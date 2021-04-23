@@ -138,6 +138,7 @@ h3:hover{
 #menumade {
     padding-top: 15px;
     width: 75px;
+    filter: drop-shadow(2px 2px 1px #010);
 }
 
 h1{
@@ -326,6 +327,10 @@ nav p{
     z-index: 100;
 }
 
+.navicon:hover{
+    filter: drop-shadow(2px 2px 5px #090);
+}
+
 .logo{
     width: 90px;
     margin: 12px 0 12px 25px;
@@ -455,7 +460,8 @@ img {
     
     #sociallink img{
         width: 30px;
-        margin: 0px 20px
+        margin: 0px 20px;
+        filter: drop-shadow(2px 1px 1px #000);
     }
     
     #stage{
@@ -844,6 +850,7 @@ img {
     #sociallink img{
         width: 25px;
         margin: 0px 10px;
+        filter: drop-shadow(2px 1px 1px #000);
     }
     
     #hours{
@@ -1071,6 +1078,11 @@ img {
     #sociallink img{
         width: 40px;
         margin: 0px 50px;
+        filter: drop-shadow(2px 1px 1px #000);
+    }
+    
+    #sociallink:hover{
+        filter: drop-shadow(-2px -1px 3px #0e0);
     }
     
     #intro img{
