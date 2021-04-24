@@ -1,3 +1,7 @@
+*:focus {
+    outline: none;
+   }
+
 html{
     min-height:100%;
     overflow:auto;
@@ -143,14 +147,12 @@ h3:hover{
 
 h1{
     color: #fff;
-    background-color: #000;
+    background: #000;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
-    font-family: 'righteous';
+    font-family: 'Kanit';
     text-align: center;
     font-weight: bolder;
-    text-shadow:
-       1px 2px 0 #992;
 }
 
 h2{
