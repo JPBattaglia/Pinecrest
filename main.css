@@ -291,6 +291,10 @@ p{
     text-decoration: none;
 }
 
+.sidenav .closebtn:hover{
+    background: none;
+}
+
 nav{
     margin: 22px auto;
     margin-bottom: 20px;
