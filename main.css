@@ -778,7 +778,9 @@ img {
     }
     
    h1{
-        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: -.5px;
+        font-size: 14px;
         margin: 25px auto 0px;
         max-width: 100%;
         border-top-right-radius: 17px;
@@ -788,7 +790,7 @@ img {
     
     
     #intro img{
-        margin: 21px auto 0;
+        margin: 25px auto 0;
         max-width: 315px;
         height: 180px;
         border-bottom-left-radius: 15px;
