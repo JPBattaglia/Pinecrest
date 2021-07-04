@@ -661,13 +661,7 @@ img {
         font-size: 12px;
         padding: 6px 8px;
         width: 100px;
-        margin-top: -10px;
-    }
-    
-    #togo {
-        width: 100px;
-        height: 38px;
-        margin: 0px auto;
+        margin: -10px;
     }
     
     .sidenav .closebtn {
