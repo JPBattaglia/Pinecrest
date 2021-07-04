@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta property="og:title" content="MENU" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="300" />
+    <meta property="og:image" content="https://i.ibb.co/8PxT5y5/Menu-Preview.png" />
+    <meta property="og:image:secure_url" content="https://i.ibb.co/8PxT5y5/Menu-Preview.png" />
+    <meta name="keywords" content="Web Development">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MENU - Services</title>
+    <meta name="description" content="Online Presence Management">
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" type="image/png" href="MENU=.png">
+    <link href="https://fonts.googleapis.com/css?family=Federant|Lexend+Deca|Kaushan+Script|Fugaz+One|Righteous|Orbitron|Kanit|Quintessential" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body style="background: linear-gradient(90deg, #046, #068, #046);" id="animated-example" class="animated fadeOut">
+
+    <script>
+        window.addEventListener("beforeunload", function() {
+            document.body.classList.add("animate-out");
+        });
+    </script>
+
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#10754;</a>
+        <a class="sidelink" href="index.html">Home</a>
+        <a  class="sidelink"style="text-decoration: underline; text-underline-position: under;" href="services.html">Services</a>
+        <a class="sidelink" href="contact.html">Contact</a>
+    </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "150px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+    <nav>
+
+        <div data-aos="fade-right" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+            <img class="logoburger" src="MENU=.png">
+        </div>
+
+        <div data-aos="fade-right" data-aos-duration="800" data-aos-anchor-placement="top-bottom" class="logo"><img src="MenuRed.png"></div>
+        
+        <div class="burger" data-aos="fade-left" data-aos-duration="1000" data-aos-anchor-placement="top-bottom" >
+            <div data-aos="fade-left" data-aos-duration="1000" data-aos-anchor-placement="top-bottom"  onclick="openNav()"> <span id="top"></span> <span id="middle"></span> <span id="bottom"></span></div> 
+        </div>
+        
+        <ul class="desknav">
+            
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="index.html">Home</a></li>
+        
+        </ul>
+        
+        <div class="mconsult">
+            <a href="tel:17573255866"><button id="Btn" data-aos="fade-down" data-aos-duration="800" data-aos-anchor-placement="top-bottom">Free Consultation</button></a>
+        </div>
+        
+        <div class="dconsult">
+            <a href="contact.html"><button id="Btn" data-aos="fade-down" data-aos-duration="800" data-aos-anchor-placement="top-bottom">Free Consultation</button></a>
+        </div>
+
+    </nav>
+    
+    <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+        
+        <script>
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+            } else {
+            document.getElementById("myBtn").style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+            } 
+            
+        </script>
+    
+    
+<div class="services">
+
+        <div class="pastry" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="400"><img data-aos="fade-in" data-aos-anchor-placement="center-bottom" data-aos-duration="1000" data-aos-delay="1200" src="Retail.png"><br><h4 data-aos="zoom-in-down" data-aos-duration="800" data-aos-delay="600" >Retail</h4>
+
+            <div class="details">
+                <p>We Can Set Up An E-commerce Section For You So You Can Increase Sales And Focus On Your Craft.</p><a href="#e-commerce"><button class="Btn1">Details</button></a>
+            </div>
+        </div>
+    
+        <div class="restaurant" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="600" ><img data-aos="fade-in" data-aos-anchor-placement="center-bottom" data-aos-duration="1000" data-aos-delay="1400" src="ServNapkinTray.png"><br><h4 data-aos="zoom-in-down" data-aos-duration="800" data-aos-delay="800" >Service</h4>
+
+            <div class="details">
+                <p>All Dining Establishments Need A Digital Presence These Days. We Can Provide And Manage It All For You.</p><a href="#food"><button class="Btn1">Details</button></a>
+            </div>
+        </div>
+
+        <div class="cafe" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="800"><img data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1600" src="Portfolio.png"><br><h4 data-aos="zoom-in-down" data-aos-duration="800" data-aos-anchor-placement="center-bottom" data-aos-delay="1000" >Personal</h4>
+            <div class="details">
+                <p>Every Portfolio Has Its Own Style And Feel. We Strive To Showcase That Uniqueness For Each Individual.</p><a href="#personal"><button class="Btn1">Details</button></a>
+            </div>
+        </div>
+    </div>
+    
+    <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-delay="500" class="website">
+        
+        <div data-aos="zoom-out-up" data-aos-delay="1000" data-aos-duration="1800" class="stars">
+            
+            <img class="star-1" src="Star-1.png">
+            <img data-aos="zoom-in-up" data-aos-duration="2000" data-aos-delay="1000" class="star-2" src="Star-2.png">
+            <img class="star-3" src="Star-3.png">
+        </div>
+    
+        <h2  data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="1500" data-aos-anchor-placement="top-bottom">Each site will have its own unique requirements so the plans listed below are really meant to give an idea of what we offer and their associated costs. We much prefer to build each plan for every individual need so contact our team now and let us build a plan for you with no obligation.</h2>
+    
+    </div>
+    
+    
+    <div class="plans">
+        
+        <div data-aos="zoom-in-up" data-aos-delay="300" data-aos-duration="1800" data-aos-anchor-placement="top-center" class="basic">
+            <div class="star"><img src="Star-1.png"></div>
+            <h1>Basic</h1>
+                <h3>100</h3>
+             <h6>monthly</h6>
+            
+                    <div data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1800" data-aos-anchor-placement="top-bottom" class="items">
+                        <h4><img class="check" src="CheckBox.png"> 3 - 4 Pages</h4>
+                        <h4><img class="check" src="CheckBox.png"> Hosting</h4>
+                        <h4><img class="check" src="CheckBox.png"> Maintanence</h4>
+                        <h4><img class="check" src="CheckBox.png"> SEO</h4>
+                        <h4><img class="check" src="CheckBox-1.png"> E-Commerce</h4>
+                        <h4><img class="check" src="CheckBox-1.png"> Branding/Logo</h4>
+                        <h4><img class="check" src="CheckBox-1.png"> Social Media</h4>
+                        <h4><img class="check" src="CheckBox-1.png"> Mobile App</h4><br>
+                    </div>
+        </div>
+        
+        <div data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="2000" data-aos-anchor-placement="top-center" class="pro">
+            <div class="star"><img src="Star-2.png"></div>
+            <h1>Pro</h1>
+                 <h3>200</h3>
+             <h6>monthly</h6>
+            
+                    <div data-aos="fade-up" data-aos-delay="1200" data-aos-duration="1800" data-aos-anchor-placement="top-bottom" class="items">
+                        <h4><img class="check" src="CheckBox.png"> 5 - 10 Pages</h4>
+                        <h4><img class="check" src="CheckBox.png"> Hosting</h4>
+                        <h4><img class="check" src="CheckBox.png"> Maintanence</h4>
+                        <h4><img class="check" src="CheckBox.png"> SEO</h4>
+                        <h4><img class="check" src="CheckBox.png"> E-Commerce</h4>
+                        <h4><img class="check" src="CheckBox-1.png"> Branding/Logo </h4>
+                        <h4><img class="check" src="CheckBox-1.png"> Social Media</h4>
+                        <h4><img class="check" src="CheckBox-1.png"> Mobile App</h4><br>
+                    </div>
+    </div>
+        
+        <div data-aos="zoom-in-up" data-aos-delay="800" data-aos-duration="2500" data-aos-anchor-placement="top-center" class="prime">
+            <div class="star"><img src="Star-3.png"></div>
+            <h1>Prime</h1>
+                 <h3>300</h3>
+             <h6>monthly</h6>
+            
+                    <div data-aos="fade-up" data-aos-delay="1400" data-aos-duration="1800" data-aos-anchor-placement="top-bottom" class="items">
+                        <h4><img class="check" src="CheckBox.png"> 10+ Pages</h4>
+                        <h4><img class="check" src="CheckBox.png"> Hosting</h4>
+                        <h4><img class="check" src="CheckBox.png"> Maintanence</h4>
+                        <h4><img class="check" src="CheckBox.png"> SEO</h4>
+                        <h4><img class="check" src="CheckBox.png"> E-Commerce</h4>
+                        <h4><img class="check" src="CheckBox.png"> Branding/Logo</h4>
+                        <h4><img class="check" src="CheckBox.png"> Social Media</h4>
+                        <h4><img class="check" src="CheckBox.png"> Mobile App</h4>
+                        <br id="food">
+                    </div>
+        </div>
+    
+    </div>
+    
+    <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-anchor-placement="top-bottom" class="website">
+        
+        <h1 data-aos="flip-right" data-aos-duration="3000" data-aos-delay="300" data-aos-anchor-placement="top-bottom">Food Service</h1>
+        <h2 data-aos="zoom-in-up" data-aos-duration="2000" data-aos-delay="500" data-aos-anchor-placement="top-bottom">Restaurants, cafes, diners, bakeries etc. all now recognize since 2020 the absolute necessity to maintain an online presence. We specialize in this specific niche especially the small business mom and pop locations. We specifically relate because we come from over 20 years of working in restaurants ourselves, from casual to fine dining. </h2><h2 data-aos="zoom-in-up" data-aos-duration="2000" data-aos-delay="800" data-aos-anchor-placement="top-bottom">It's imperative that people be able to find your establishment online in order to increase reservations and new prospective future regulars. Relying solely on word of mouth and neighborhood foot traffic is no longer enough to survive. We'll help put you on the map both literally and figuratively.</h2>
+
+    </div><br id="e-commerce"><br><br><br>
+    
+    <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-anchor-placement="top-bottom" class="website">
+        
+        <h1 data-aos="flip-right" data-aos-duration="3000" data-aos-delay="300" data-aos-anchor-placement="top-bottom">E-Commerce</h1>
+        <h2 data-aos="zoom-in-up" data-aos-duration="2000" data-aos-delay="500" data-aos-anchor-placement="top-bottom" >Selling online has continued to increase in popularity exponentially every year. More people are buying from online providers now more than ever thanks to recent events. We can seemlessly integrate a catalogue of items, your own customizable shopping cart, a checkout page and even shipping all into your website using a third party provider that handles all of your transactions and even provides reports to let you see how your products are selling.</h2>
+
+    </div><br id="personal"><br><br><br>
+    
+    <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-anchor-placement="top-bottom" class="website">
+        
+        <h1 data-aos="flip-right" data-aos-duration="3000" data-aos-delay="300" data-aos-anchor-placement="top-bottom">Personal</h1>
+        <h2 data-aos="zoom-in-up" data-aos-duration="2000" data-aos-delay="500" data-aos-anchor-placement="top-bottom" >Creating your own portfolio or service providing website is essential for artists, entreprenuers, personal trainers, instructors, etc. It can help break into the freelancing platform and it all starts with a website. We like to make every personal website reflect the personality and style of each client.</h2>
+
+    </div><br><br><br><br>
+    
+    <div class="popup">
+        <div class="contentBox">
+            <div class="closex">&#10754;</div>
+            <div class="imgBx">
+                <img src="MenuLeft.png">
+            </div>
+            <div class="content">
+                <div>
+                <h3>Special Offer</h3>
+                <h2>50<sup>%</sup><span> Off</span></h2>
+                <p>Initial design & build with free consultation and quote.</p>
+                <a href="contact.html">Get This Deal</a>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+        <script>
+        
+        const popup = document.querySelector('.popup');
+        const closex = document.querySelector('.closex');
+            
+            window.onload = function(){
+                setTimeout(function(){
+                    popup.style.display = "block";
+                }, 20000)
+            }
+            
+            closex.addEventListener('click', () => {
+                popup.style.display = "none";
+            })
+        </script>
+    
+
+    <div id="footer" style="background: #034; height: 40px;">
+        <p>&copy; <img id="menumade" src="MENU.png"> made 2019</p>
+    </div>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
