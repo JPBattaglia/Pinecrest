@@ -500,6 +500,7 @@ img {
     }
     #message {
         height: 200px;
+        background-color: #f5f5f0;
     }
     select {
         font-family: 'federant', serif;
