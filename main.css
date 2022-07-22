@@ -120,11 +120,13 @@ h4:hover {
     color: #fff;
     text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     text-decoration: none;
+    transition: 1s;
 }
 
 h3:hover {
     color: #0f0;
     text-shadow: 2px 1px 0 #000;
+    transition: 1s;
 }
 
 #menumade {
@@ -158,9 +160,11 @@ h3 {
     font-family: 'Quintessential', serif;
     font-weight: bolder;
     text-align: center;
-    margin: 20px 0;
+    width: 220px;
+    margin: 20px auto;
     color: #253;
     text-shadow: -1px -1px 0 #050, 2px 1px 0 #fff;
+    transition: 1s;
 }
 
 h4 {
@@ -179,6 +183,7 @@ h4 {
     text-decoration: none;
     border: .5px solid #bbbb77;
     box-shadow: 2px 4px 8px #000, -2px 4px 8px #000;
+    transition: 1s;
 }
 
 h5 {
@@ -678,7 +683,7 @@ img {
     .navicon {
         width: 35px;
         height: 28px;
-        margin: 20px 20px 0px 0px;
+        margin: -25px 20px 0px 0px;
     }
     #rotate {
         width: 50px;
