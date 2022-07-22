@@ -265,6 +265,7 @@ nav {
     margin: 22px auto;
     margin-bottom: 20px;
     width: 97.2%;
+    max-width: 1400px;
     height: 135px;
     background: #807e31;
     border-bottom: 20px double #eeeedd;
@@ -306,7 +307,7 @@ nav p {
 
 .logo {
     width: 90px;
-    margin: 12px 0 12px 25px;
+    margin: 12px 0 12px 40px;
     -webkit-transition: width 2s, height 2s, -webkit-transform 1.5s;
     /* Safari */
     transition: width 2s, height 2s, transform 1.5s;
