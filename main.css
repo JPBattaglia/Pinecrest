@@ -411,6 +411,11 @@ img {
 /*=======================================*/
 
 @media (max-width: 1000px) and (min-width: 701px) {
+    
+    .desktop{
+        display: none;
+    }
+    
     #rotate {
         display: none;
     }
@@ -647,6 +652,11 @@ img {
 /*=======================================*/
 
 @media (max-width: 700px) {
+    
+    .desktop{
+        display: none;
+    }
+    
     .animated {
         background: url(PINECRESTBACKROUND2.png);
         background-size: cover;
@@ -990,6 +1000,44 @@ img {
 /*=======================================*/
 
 @media (min-width: 1000px) {
+    
+    .navicon, #togo{
+        display: none;
+    }
+    
+    .desknav{
+        z-index: 999999;
+        float: right;
+        font-size: 20px;
+        margin: 40px;
+    }
+
+    
+    .desktop a{
+        text-transform: uppercase;
+        transition: 1s;
+        margin: 20px;
+        text-decoration: none;
+        padding: 8px 30px;
+        border: 1px solid #c99300;
+        border-radius: 20px; 
+        color: white;
+        transition: 1s;
+        border: 1px solid #595900;
+        text-shadow: 1px 1px 0px black, -1px -1px 0px black, -1px 1px 0px black, 1px -1px 0px black;
+        background: repeating-linear-gradient(to top, #33331a, #808000, #bfbf5a 100%);
+    }
+
+    .desktop a:hover{
+        box-shadow: 2px 6px 10px #b3b300,
+            -2px -6px 10px #b3b300;
+        color: #fff;
+        text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        text-decoration: none;
+        transition: 1s;
+        background: black;
+    }
+    
     #rotate,
     .navicon1 {
         display: none;
