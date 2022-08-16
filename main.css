@@ -131,7 +131,7 @@ h3:hover {
 
 #menumade {
     padding-top: 15px;
-    width: 75px;
+    width: 60px;
     filter: drop-shadow(2px 2px 1px #010);
 }
 
@@ -419,14 +419,17 @@ img {
     #rotate {
         display: none;
     }
+    
     .sidenav .closebtn {
         margin: 0 15px;
         padding: 30px 27px 28px 22px;
     }
+    
     .logo {
         margin: 12px 0 0 12px;
         max-width: 75px;
     }
+    
     #togo {
         margin: 20px 0;
     }
@@ -448,19 +451,27 @@ img {
         margin: auto;
         text-align: center;
     }
+    
     .sociallink img {
-        width: 30px;
+        width: 40px;
         margin: 0px 20px;
         filter: drop-shadow(2px 1px 1px #000);
     }
+    
+    .sociallink:hover {
+        filter: drop-shadow(1px 1px 3px #fff);
+    }
+    
     #stage {
         max-height: 200px;
     }
+    
     #intro {
         margin: auto;
         height: 450px;
         max-width: 600px;
     }
+    
     h1 {
         font-size: 25px;
         margin: 10px auto;
@@ -468,6 +479,7 @@ img {
         padding: 0;
         border: 8px double #775;
     }
+    
     h4 {
         font-size: 15px;
         padding: 8px 10px;
@@ -476,6 +488,7 @@ img {
         top: 25px;
         left: 43%;
     }
+    
     #intro img {
         margin: 44px auto;
         max-width: 600px;
@@ -484,9 +497,11 @@ img {
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
     }
+    
     .menus {
         margin: 5px;
     }
+    
     #reservation {
         color: #ffeecc;
         padding: 10px 25px;
@@ -499,6 +514,7 @@ img {
         box-shadow: 2px 4px 8px #700;
         margin: 5px 80px;
     }
+    
     textarea,
     input {
         font-family: 'federant', serif;
@@ -509,10 +525,12 @@ img {
         max-width: 500px;
         background-color: #f5f5f0;
     }
+    
     #message {
         height: 200px;
         background-color: #f5f5f0;
     }
+    
     select {
         font-family: 'federant', serif;
         color: #a00;
@@ -524,20 +542,24 @@ img {
         box-sizing: border-box;
         background-color: antiquewhite;
     }
+    
      ::placeholder {
         /* Chrome, Firefox, Opera, Safari 10.1+ */
         color: #c00;
         opacity: .5;
         /* Firefox */
     }
+    
      :-ms-input-placeholder {
         /* Internet Explorer 10-11 */
         color: red;
     }
+    
      ::-ms-input-placeholder {
         /* Microsoft Edge */
         color: red;
     }
+    
     /* Style inputs with type="text", select elements and textareas */
     input[type=text],
     select,
@@ -588,9 +610,11 @@ img {
         text-shadow: 1px 1px 0 lime, -1px -1px 0 green, 1px -1px 0 green, -1px 1px 0 green, 1px 1px 0 green;
         cursor: pointer;
     }
+    
     #fname {
         margin-top: 100px;
     }
+    
     /* Add a background color and some padding around the form */
     .container {
         background: url(Vines.png);
@@ -599,49 +623,63 @@ img {
         max-width: 95%;
         margin: auto;
     }
+    
     #form {
         padding: 20px 0px 40px;
         text-align: center;
         width: 100%;
     }
+    
     footer {
         margin-top: 50px;
         text-align: center;
         font-size: 20PX;
         color: #fff;
     }
+    
     footer p {
         width: 100%;
         font-weight: bolder;
         color: #fff;
     }
+    
     .logo {
         width: 75px;
         margin: 10px 0 0 20px;
     }
+    
     nav {
         margin-top: 17px;
         width: 97%;
         height: 110px;
         border-bottom: 15px double #eeeedd;
     }
+    
     .navicon {
         margin: 20px 30px 0px 0px;
         width: 48px;
         height: 36px;
     }
+    
     #stage {
         margin: 6px 0px;
     }
+    
     #mobilemenu {
         max-width: 90%;
     }
+    
     .modalDialog>div {
         width: 80%;
     }
+    
     .close {
         right: 70px;
         top: 40px;
+    }
+    
+    #menumade{
+        width: 55px;
     }
 }
 
@@ -769,7 +807,7 @@ img {
     }
     #menumade {
         padding: 10px 0;
-        width: 65px;
+        width: 50px;
     }
     #map {
         margin: 30px auto 40px;
@@ -801,6 +839,11 @@ img {
         margin: 0px 10px;
         filter: drop-shadow(2px 1px 1px #000);
     }
+    
+    .sociallink:hover {
+        filter: drop-shadow(1px 1px 1px #fff);
+    }
+    
     #hours {
         margin-top: 10px;
     }
@@ -999,7 +1042,7 @@ img {
 
 /*=======================================*/
 
-@media (min-width: 1000px) {
+@media (min-width: 1001px) {
     
     .navicon, #togo{
         display: none;
@@ -1031,11 +1074,11 @@ img {
     .desktop a:hover{
         box-shadow: 2px 6px 10px #b3b300,
             -2px -6px 10px #b3b300;
-        color: #fff;
-        text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        color: #eded72;
         text-decoration: none;
         transition: 1s;
-        background: black;
+        background: #222;
+        border: 1px solid #fff;
     }
     
     #rotate,
@@ -1043,12 +1086,12 @@ img {
         display: none;
     }
     .sociallink img {
-        width: 40px;
+        width: 50px;
         margin: 0px 50px;
         filter: drop-shadow(2px 1px 1px #000);
     }
     .sociallink:hover {
-        filter: drop-shadow(-2px -1px 3px #0e0);
+        filter: drop-shadow(-2px -1px 3px #fff);
     }
     #intro img {
         margin: 56px auto;
