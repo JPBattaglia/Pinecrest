@@ -24,6 +24,8 @@
     
     <body id="animated-example" class="animated fadeOut" style="background-size:100%">
         
+        <div id="preloader">Loading</div>
+        
         <script>window.addEventListener("beforeunload", function () {
   document.body.classList.add("animate-out");
             });</script>
@@ -91,13 +93,12 @@
         <div id="mobilemenu">
             <br><br><br>
         
-            <img data-aos="zoom-in-up" data-aos-duration="2000" src="Apps.jpg"><br><br><br>
-            <img data-aos="zoom-in-up" data-aos-duration="2000" src="Sandwiches.jpg"><br><br><br>
-            <img data-aos="zoom-in-up" data-aos-duration="2000" src="Sandwiches2.jpg"><br><br><br>
-            <img data-aos="zoom-in-up" data-aos-duration="2000" src="Dinner.jpg"><br><br><br>
-            <img data-aos="zoom-in-up" data-aos-duration="2000"  src="Breakfast.jpg"><br><br><br>
-            <img data-aos="zoom-in-up" data-aos-duration="2000"  src="Omelettes.jpg"><br><br><br>
-            <img data-aos="zoom-in-up" data-aos-duration="2000"  src="Pancakes.jpg"><br><br><br>
+            <img data-aos="zoom-in-up" data-aos-duration="2000" src="menu1.jpg"><br><br><br>
+            <img data-aos="zoom-in-up" data-aos-duration="2000" src="menu4.jpg"><br><br><br>
+            <img data-aos="zoom-in-up" data-aos-duration="2000" src="menu5.jpg"><br><br><br>
+            <img data-aos="zoom-in-up" data-aos-duration="2000" src="menu3.jpg"><br><br><br>
+            <img data-aos="zoom-in-up" data-aos-duration="2000"  src="menu2.jpg"><br><br><br>
+            <img data-aos="zoom-in-up" data-aos-duration="2000"  src="menu6.jpg"><br><br><br>
             
         </div>
         
@@ -120,5 +121,13 @@
   <script>
     AOS.init();
   </script>
+        
+    <script>
+        
+        var loader = document.getElementById("preloader");
+        
+        window.addEventListener("load", function(){loader.style.display = "none"})
+        
+    </script>
         
     </body>

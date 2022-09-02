@@ -24,6 +24,8 @@
 </head>
 
 <body id="animated-example" class="animated fadeOut">
+    
+    <div id="preloader">Loading</div>
 
     <script>
         window.addEventListener("beforeunload", function() {
@@ -102,7 +104,7 @@
 
     <section id="form">
 
-        <h2>Contact Us</h2>
+        <h2 data-aos="zoom-in-down" data-aos-duration="2000" data-aos-anchor-placement="top-bottom" >Contact Us</h2>
 
         <div class="container">
 
@@ -146,6 +148,15 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+    
+    
+    <script>
+        
+        var loader = document.getElementById("preloader");
+        
+        window.addEventListener("load", function(){loader.style.display = "none"})
+        
     </script>
 
 </body>

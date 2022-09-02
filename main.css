@@ -404,6 +404,22 @@ img {
     font-size: 50px;
 }
 
+#preloader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7a0;
+    padding-top: 25%;
+    font-family: 'federant' ;
+    background: #001600 url(Preloader1.gif) no-repeat center center;
+    background-size: 20%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 9999999999999999;
+    top: 0;
+}
+
 
 /*=======================================*/
 
@@ -589,13 +605,13 @@ img {
     input[type=submit] {
         color: #ffeecc;
         padding: 10px 39px;
-        background: repeating-linear-gradient(to top, #030, #070, lightgreen 100%);
+        background: repeating-linear-gradient(to top, #33331a, #808000, #bfbf5a 100%);
         width: 150px;
         border-radius: 30px;
         font-family: 'Federant';
         font-size: 20px;
         text-decoration: none;
-        border: .5px solid #66cc00;
+        border: .5px solid #550;
         box-shadow: 2px 8px 10px black, -2px 8px 10px black;
         -webkit-transition: background-color 1s ease-out;
         -moz-transition: background-color 1s ease-out;
@@ -605,9 +621,9 @@ img {
     }
     /* When moving the mouse over the submit button, add a blue color */
     input[type=submit]:hover {
-        box-shadow: 2px 8px 10px limegreen;
+        box-shadow: 2px 8px 10px #220;
         color: antiquewhite;
-        text-shadow: 1px 1px 0 lime, -1px -1px 0 green, 1px -1px 0 green, -1px 1px 0 green, 1px 1px 0 green;
+        text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
         cursor: pointer;
     }
     
@@ -625,9 +641,14 @@ img {
     }
     
     #form {
-        padding: 20px 0px 40px;
         text-align: center;
         width: 100%;
+    }
+    
+    #form h2{
+        margin-bottom: -50px;
+        color: #770;
+        text-shadow: 0px 2px 0px #000;
     }
     
     footer {
@@ -871,6 +892,8 @@ img {
     #form h2 {
         font-size: 30px;
         margin-top: 30px;
+        color: #770;
+        text-shadow: 0px 2px 0px #000;
     }
     select {
         padding: 0px;
@@ -937,13 +960,13 @@ img {
         color: #ffeecc;
         margin: 20px 0;
         padding: 5px;
-        background: repeating-linear-gradient(to top, #030, #070, lightgreen 100%);
+        background: repeating-linear-gradient(to top, #33331a, #808000, #bfbf5a 100%);
         width: 120px;
         border-radius: 30px;
         font-family: 'Federant';
         font-size: 20px;
         text-decoration: none;
-        border: .5px solid #66cc00;
+        border: .5px solid #aa0;
         box-shadow: 2px 8px 10px black, -2px 8px 10px black;
         -webkit-transition: background-color 1s ease-out;
         -moz-transition: background-color 1s ease-out;
@@ -952,9 +975,9 @@ img {
     }
     /* When moving the mouse over the submit button, add a blue color */
     input[type=submit]:hover {
-        box-shadow: 2px 8px 10px limegreen;
+        box-shadow: 2px 8px 10px #220;
         color: antiquewhite;
-        text-shadow: 1px 1px 0 lime, -1px -1px 0 green, 1px -1px 0 green, -1px 1px 0 green, 1px 1px 0 green;
+        text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
         cursor: pointer;
     }
     /* Add a background color and some padding around the form */
@@ -1233,13 +1256,13 @@ img {
         letter-spacing: .3px;
         margin: 40px 0 75px;
         padding: 10px 39px;
-        background: repeating-linear-gradient(to top, #030, #070, lightgreen 100%);
+        background: repeating-linear-gradient(to top, #33331a, #808000, #bfbf5a 100%);
         width: 150px;
         border-radius: 30px;
         font-family: 'Federant';
         font-size: 20px;
         text-decoration: none;
-        border: .5px solid #66cc00;
+        border: .5px solid #550;
         box-shadow: 2px 8px 10px black, -2px 8px 10px black;
         -webkit-transition: background-color 1s ease-out;
         -moz-transition: background-color 1s ease-out;
@@ -1248,9 +1271,9 @@ img {
     }
     /* When moving the mouse over the submit button, add a blue color */
     input[type=submit]:hover {
-        box-shadow: 2px 8px 10px limegreen;
+        box-shadow: 2px 8px 10px #220;
         color: antiquewhite;
-        text-shadow: 1px 1px 0 lime, -1px -1px 0 green, 1px -1px 0 green, -1px 1px 0 green, 1px 1px 0 green;
+        text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
         cursor: pointer;
     }
     #fname {
@@ -1266,9 +1289,15 @@ img {
         margin: auto;
     }
     #form {
-        padding: 20px 0px 40px;
         text-align: center;
     }
+    
+    #form h2{
+        margin-bottom: -50px;
+        color: #770;
+        text-shadow: 0px 2px 0px #000;
+    }
+    
     footer {
         margin-top: 100px;
         text-align: center;
