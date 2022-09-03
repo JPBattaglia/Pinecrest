@@ -737,9 +737,9 @@ img {
     
     h4 {
         font-size: 12px;
-        padding: 6px 8px;
-        width: 100px;
-        margin: -10px;
+        padding: 3px 8px;
+        width: 90px;
+        margin: -10px auto;
     }
     
     .sidenav .closebtn {
@@ -754,7 +754,7 @@ img {
     .navicon {
         width: 35px;
         height: 28px;
-        margin: -25px 20px 0px 0px;
+        margin: -25px 5px 0px 0px;
     }
     #rotate {
         width: 50px;
