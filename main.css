@@ -388,6 +388,7 @@ img {
 }
 
 #mobilemenu img {
+    display: flex;
     max-width: 100%;
     margin: auto;
     border: 5px double #666633;
