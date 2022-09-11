@@ -585,7 +585,7 @@ img {
         margin: auto;
         box-shadow: 2px 4px 10px #111109;
         text-align: center;
-        width: 60%;
+        width: 50%;
         /* Full width */
         padding: 8px;
         /* Some padding */
@@ -595,7 +595,7 @@ img {
         /* Rounded borders */
         box-sizing: border-box;
         /* Make sure that padding and width stays in place */
-        margin-top: 30px;
+        margin-top: 10px;
         /* Add a top margin */
         margin-bottom: 30px;
         /* Bottom margin */
@@ -1244,7 +1244,7 @@ img {
         /* Rounded borders */
         box-sizing: border-box;
         /* Make sure that padding and width stays in place */
-        margin-top: 50px;
+        margin-top: 30px;
         /* Add a top margin */
         margin-bottom: 30px;
         /* Bottom margin */
@@ -1278,7 +1278,7 @@ img {
         cursor: pointer;
     }
     #fname {
-        margin-top: 130px;
+        margin-top: 100px;
     }
     /* Add a background color and some padding around the form */
     .container {
