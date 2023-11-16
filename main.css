@@ -512,6 +512,7 @@ img {
         position: absolute;
         top: 25px;
         left: 43%;
+        border-radius: 10px;
     }
     
     h6{
@@ -754,6 +755,7 @@ img {
         padding: 3px 8px;
         width: 100px;
         margin: -10px auto;
+        border-radius: 8px;
     }
     
     h6{
@@ -1107,7 +1109,7 @@ img {
         text-decoration: none;
         padding: 8px 30px;
         border: 1px solid #c99300;
-        border-radius: 20px; 
+        border-radius: 15px; 
         color: white;
         transition: 1s;
         border: 1px solid #595900;
