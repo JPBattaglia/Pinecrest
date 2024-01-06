@@ -315,7 +315,7 @@ nav p {
 }
 
 .navicon:hover {
-    filter: drop-shadow(2px 2px 5px #090);
+    filter: drop-shadow(2px 2px 8px #C0CB54);
 }
 
 .logo {
