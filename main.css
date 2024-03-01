@@ -200,6 +200,12 @@ h6 {
     text-shadow: -1px -1px 0 #050, 2px 1px 0 #fff;
 }
 
+#mobilemenu h5{
+    width: 410px;
+    margin: auto;
+    color: darkolivegreen;
+}
+
 p {
     color: #fff;
     font-size: 17px;
@@ -756,6 +762,13 @@ img {
         width: 100px;
         margin: -10px auto;
         border-radius: 8px;
+    }
+    
+    #mobilemenu h5{
+        width: 280px;
+        color: olive;
+        font-size: 18px;
+        text-shadow: .5px .5px 0 black, -.5px -.5px 0 black, .5px -.5px 0 black, -.5px .5px 0 black, .5px .5px 0 black;
     }
     
     h6{
