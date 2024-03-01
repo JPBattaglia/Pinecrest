@@ -578,7 +578,7 @@ img {
      ::placeholder {
         /* Chrome, Firefox, Opera, Safari 10.1+ */
         color: #c00;
-        opacity: .5;
+        opacity: .7;
         /* Firefox */
     }
     
@@ -604,9 +604,9 @@ img {
         /* Full width */
         padding: 8px;
         /* Some padding */
-        border: 3px solid #999966;
+        border: .5px solid #999966;
         /* Gray border */
-        border-radius: 25px;
+        border-radius: 17px;
         /* Rounded borders */
         box-sizing: border-box;
         /* Make sure that padding and width stays in place */
@@ -967,7 +967,7 @@ img {
         /* Some padding */
         border: 1.5px solid #999966;
         /* Gray border */
-        border-radius: 20px;
+        border-radius: 15px;
         /* Rounded borders */
         box-sizing: border-box;
         /* Make sure that padding and width stays in place */
@@ -1260,9 +1260,9 @@ img {
         /* Full width */
         padding: 8px;
         /* Some padding */
-        border: 1.5px solid #999966;
+        border: .5px solid #999966;
         /* Gray border */
-        border-radius: 25px;
+        border-radius: 17px;
         /* Rounded borders */
         box-sizing: border-box;
         /* Make sure that padding and width stays in place */
